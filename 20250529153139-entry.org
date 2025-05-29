@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0ee8b4ea-1892-4abf-af63-83bde68b1ffe
+:END:
+#+title: Entry
+
+This is the entry point for all the nodes
