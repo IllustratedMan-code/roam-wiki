@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       d1d9fda3-fb43-4888-a179-7f24ad0554eb
+:END:
+#+title: Bioinformatics
+The study of biology and information

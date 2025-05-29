@@ -4,3 +4,6 @@
 #+title: Entry
 
 This is the entry point for all the nodes
+
+* My Interests
+- [[id:d1d9fda3-fb43-4888-a179-7f24ad0554eb][Bioinformatics]]

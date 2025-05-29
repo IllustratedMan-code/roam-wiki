@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       66025d03-ddac-4757-9f27-b2cbfe377b6c
+:END:
+#+title: Machine Learning
+
+Teaching computers how to solve non-deterministic problems.
