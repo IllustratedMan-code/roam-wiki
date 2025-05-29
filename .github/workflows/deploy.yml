@@ -10,4 +10,4 @@ jobs:
       - name: Generate org-roam-ui page
         uses: ikoamu/publish-org-roam-ui@main
         with:
-          org-roam-db-filename: <org-roam-filename>.db
+          org-roam-db-filename: roamdb.db
