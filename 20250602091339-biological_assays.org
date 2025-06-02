@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4550b3f0-11b9-486d-94ee-09fbfea877d9
+:END:
+#+title: Biological Assays
+
+Biological assays generate the data required for bioinformatics analysis.
+
+They can be broady split into two types, in vivo, or in vitro.

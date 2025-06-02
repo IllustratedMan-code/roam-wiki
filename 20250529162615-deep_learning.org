@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       f2ef4e23-cd4a-4b2f-9e04-4775accdebfd
+:END:
+#+title: Deep Learning
+
+A [[id:4b274313-aa03-4018-8c3c-bbd0a51e7a7e][neural network]] that is at least 3 layers deep.
+

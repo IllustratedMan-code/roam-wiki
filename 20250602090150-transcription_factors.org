@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       06798ec2-b3a9-4c6b-a1e7-3b65de64a5c1
+:END:
+#+title: Transcription Factors
+
+Transcription factors are proteins that alter transcriptional activities. More specifically,
+transcription factors bind to DNA and control when a gene is transcribed and how it is
+transcribed.
+
+** Important Transcription factors
+
+- [[id:5fb483b8-9579-40df-acff-925f82b65085][CTCF]]

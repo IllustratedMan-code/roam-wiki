@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4b274313-aa03-4018-8c3c-bbd0a51e7a7e
+:END:
+#+title: Neural Network
+
+A collection of nodes that perform a dot product with learned weights followed by a non-linear activation function.

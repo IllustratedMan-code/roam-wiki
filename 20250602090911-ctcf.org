@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5fb483b8-9579-40df-acff-925f82b65085
+:END:
+#+title: CTCF
+
+
+CTCF is a zinc finger transcription factor
+that binds at the borders of Topologically Associated Domains (TADs).
+
+CTCF can be seen as an insulator for chromatin.

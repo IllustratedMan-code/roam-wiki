@@ -4,3 +4,7 @@
 #+title: Machine Learning
 
 Teaching computers how to solve non-deterministic problems.
+
+* Sub Topics
+
+-[[id:f2ef4e23-cd4a-4b2f-9e04-4775accdebfd][ Deep Learning]] 
