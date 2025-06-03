@@ -7,4 +7,6 @@
 Genes are not all transcribed equally, and the resulting mRNA is not equally stable.
 
 One of the main contributors to gene regulation is a collection of proteins called
-[[id:06798ec2-b3a9-4c6b-a1e7-3b65de64a5c1][Transcription Factors]]. 
+[[id:06798ec2-b3a9-4c6b-a1e7-3b65de64a5c1][Transcription Factors]].
+
+

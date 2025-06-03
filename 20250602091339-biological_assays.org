@@ -5,4 +5,18 @@
 
 Biological assays generate the data required for bioinformatics analysis.
 
-They can be broady split into two types, in vivo, or in vitro.
+They can be broady split into two types, [[id:39ab05a9-a025-44f9-b652-a2ce4a5330a6][in vivo]], or [[id:a93cee40-497e-49f4-b406-81d103f9b2e1][in vitro]].
+
+
+* In vitro assays
+
+- EMSA
+
+
+* In vivo assays
+
+** 3D Chromatin Conformation
+- [[id:71088fa6-5264-4aef-b852-fbeb42cb4582][Hi-C]]
+- 4-C
+  
+** 

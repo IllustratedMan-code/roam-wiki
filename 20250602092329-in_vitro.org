@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a93cee40-497e-49f4-b406-81d103f9b2e1
+:END:
+#+title: in vitro
+
+Latin meaning "in glass". Biological assays in this category take place within
+a controlled environment and do not use cells. Instead all of the reagents
+are strictly accounted for.

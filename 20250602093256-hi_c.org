@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       71088fa6-5264-4aef-b852-fbeb42cb4582
+:END:
+#+title: Hi-C
+#+filetags: TODO
+
+
+Hi-C is an [[id:39ab05a9-a025-44f9-b652-a2ce4a5330a6][in vivo]] high throughput assay that represents 3D chromatin conformation.
+
+It works by crosslinking chromatin together, then breaking the chromatin, leaving DNA sequences that
+correspond to 3d connections between chromatin.
+
+Hi-C is an "all vs all" assay, meaning that it finds the relationships between all segments of chromatin.
+
+
+
+

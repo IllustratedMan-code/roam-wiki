@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       39ab05a9-a025-44f9-b652-a2ce4a5330a6
+:END:
+#+title: in vivo
+
+Latin meaning "in life". Biological assays in this category take place within
+living, or recently living, cells. 
