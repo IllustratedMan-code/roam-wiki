@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       7d331864-f104-4725-a187-7b78a1cff10b
+:END:
+#+title: 2025-06-05
+
+How can I score the top number of GO terms if they are different for each comparison?
+
+Say I wanted to display the top 10 terms that are significant to all of them?
+
+Maybe I could use the lowest median p-value? Average could work too. Anyway, I need some
+scoring metric, should probably address in the meeting tommorrow. Seems like I should use
+p-value for the scoring though.
+
+So, turns out the plot can handle the sets not sharing the top N, but there is no way to
+determine how many shared there will be. In essence, I can't conbtrol how many terms will
+show up in the final plot, but I can define a range of N * (number of datasets).
+
+
+I keep getting distracted, wonder what I should do. I like this note taking system though.
+
+I seem to have maxed out my brain capacity for the day. I'm going to stop working now.

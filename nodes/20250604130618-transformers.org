@@ -2,8 +2,13 @@
 :ID:       dfb409cc-d086-4233-89a6-553e24e74303
 :END:
 #+title: Transformers
-#+filetags: TODO
 
 
 Transformers are a type of [[id:f2ef4e23-cd4a-4b2f-9e04-4775accdebfd][Deep Learning]] used to transform input from one format into output
 of another format. For example, transformers can be used to turn French into English, or images into text.
+
+
+#+DOWNLOADED: screenshot @ 2025-06-05 10:27:39
+[[file:2025-06-05_10-27-39_screenshot.png]]
+
+
