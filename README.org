@@ -1,0 +1,7 @@
+#+title: Welcome to My Roam Wiki
+
+This is generated using [[https://www.orgroam.com/][Org Roam]], a roam-research implementation in Emacs.
+
+Org Roam attempts to create a digital [[https://en.wikipedia.org/wiki/Zettelkasten][Zettlkasten]]. In other words, a set of
+nodes connected by directional links. In CS terms, this means that
+this wiki is a directed graph containing topics and their connections.
