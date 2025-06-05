@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5b5bc282-31e2-4eb5-8298-434be3577e1d
+:ROAM_REFS: https://github.com/jokergoo/rGREAT
+:END:
+#+title: GREAT
+
+GREAT is an analysis tool that can perform [[id:8efdee55-7343-455b-a476-fad7d61fcc86][gene ontology]] or pathway analysis
+on genomic regions. What this means in practice, is that GREAT can determine
+the biological significance of peak sets generated from [[id:f71f410f-c3a2-4f6e-9d73-08d016e0e692][ChIP-seq]] or[[id:d28c0463-33c4-4041-9da3-09393d83763a][ ATAC-seq]]
+experiments.

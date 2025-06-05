@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       8efdee55-7343-455b-a476-fad7d61fcc86
+:ROAM_REFS: https://en.wikipedia.org/wiki/Gene_Ontology
+:END:
+#+title: Gene Ontology
+
+Gene ontology analysis is a way of connecting gene names to gene products.
+In other words, it is a way to connect gene symbols to biological processes.

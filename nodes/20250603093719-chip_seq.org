@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f71f410f-c3a2-4f6e-9d73-08d016e0e692
+:END:
+#+title: ChIP-seq
+
+- ChIP-seq = chromatin immunoprecipitation sequencing
+
+ChIP-seq is an[[id:39ab05a9-a025-44f9-b652-a2ce4a5330a6][ in vivo]] [[id:4550b3f0-11b9-486d-94ee-09fbfea877d9][biological assay]] used to determine [[id:06798ec2-b3a9-4c6b-a1e7-3b65de64a5c1][transcription factor]] or nucleosome binding to chromatin.
+
+

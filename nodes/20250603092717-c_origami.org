@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       9c0db6c3-3fd4-4eb3-9e59-192af7b7ecdf
+:roam_refs: [cite:@tanCelltypespecificPrediction3D2023]
+:END:
+#+title: C.Origami
+
+A method to predict [[id:71088fa6-5264-4aef-b852-fbeb42cb4582][Hi-C]] data from [[id:5fb483b8-9579-40df-acff-925f82b65085][CTCF]] [[id:f71f410f-c3a2-4f6e-9d73-08d016e0e692][ChIP-seq]] and [[id:d28c0463-33c4-4041-9da3-09393d83763a][ATAC-seq]] data.
+
+[[https://illustratedman-code.github.io/Comprehensive-Exam/][My comprehensive exam]] addressed this topic, the main critique of which was
+the lack of explanation for the machine learning architecture in the paper.
+

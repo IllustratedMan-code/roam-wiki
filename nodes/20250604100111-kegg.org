@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e55d4ec3-776f-4f51-bc36-110cd718bc14
+:ROAM_REFS: https://www.genome.jp/kegg/
+:END:
+#+title: KEGG
+#+filetags: DATABASE
+
+Kyoto Encyclopedia of Genes and Genomes (KEGG) is a
+database that facilitates [[id:8efdee55-7343-455b-a476-fad7d61fcc86][gene ontology]] analysis.
+
+KEGG can be used with [[id:b37bb762-4628-4dec-b4ef-80b65ac7c230][ToppGene]] to perform [[id:902eb388-e86a-469c-aaac-93cb43cc0097][gene set enrichment analysis]].
+

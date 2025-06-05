@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       902eb388-e86a-469c-aaac-93cb43cc0097
+:ROAM_ALIASES: "Gene set enrichment analysis"
+:ROAM_REFS: https://www.gsea-msigdb.org/gsea/index.jsp
+:END:
+#+title: GSEA
+
+Gene set Enrichment Analysis ( GSEA ) is a method that determines if a set of genes has
+statistically significant functions based on two biological states (pre-treatment, treatment).
+
+
+

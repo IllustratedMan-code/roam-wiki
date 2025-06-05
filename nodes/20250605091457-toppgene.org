@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b37bb762-4628-4dec-b4ef-80b65ac7c230
+:ROAM_REFS: https://toppgene.cchmc.org/
+:END:
+#+title: ToppGene
+#+filetags: TOOL
+
+ToppGene is a suite of tools created by [[id:d5df5f72-d157-4742-b08a-5d4083ea2b68][CCHMC]] that allows one to do [[id:8efdee55-7343-455b-a476-fad7d61fcc86][gene ontology]] analysis.
+

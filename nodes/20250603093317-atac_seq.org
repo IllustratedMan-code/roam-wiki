@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d28c0463-33c4-4041-9da3-09393d83763a
+:END:
+#+title: ATAC-seq
+
+ATAC-seq is an[[id:39ab05a9-a025-44f9-b652-a2ce4a5330a6][ in vivo]] [[id:4550b3f0-11b9-486d-94ee-09fbfea877d9][biological assay]] used to determine how accessible chromatin is.
+It measures this by utilizing an enzyme called Tn5.
