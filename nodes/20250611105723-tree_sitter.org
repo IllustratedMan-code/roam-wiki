@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       df0cfd54-5a07-496e-9201-c3f6acd5cb34
+:ROAM_REFS: https://tree-sitter.github.io/tree-sitter/
+:END:
+#+title: tree-sitter
+
+
+Tresitter is a parser generator that creates parsers optimized for syntax highlighting.
+
+I've beeng trying to get a nextflow [[id:83bfae34-22e4-481d-91cd-ba6d9055e928][tree-sitter mode]] going.

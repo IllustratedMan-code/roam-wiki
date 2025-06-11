@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9346a728-b536-4a32-853b-7a317bc9ff4a
+:END:
+#+title: Nextflow subworkflows
+
+Workflows can be split into pieces called subworkflows. The [[id:07b48a23-b9b4-4d30-ab3a-ade50241355a][weirauchlab]] has written several
+of these [[https://github.com/cchmc/wrl-nextflow-modules/tree/master/subworkflows][subworkflows here]].

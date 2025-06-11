@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       1d43e6ba-cd47-4cd5-90ec-efa31b429c2b
+:END:
+#+title: NixOS
+#+filetags: TODO
+

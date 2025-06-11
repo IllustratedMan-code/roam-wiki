@@ -2,9 +2,17 @@
 :ID:       0ee8b4ea-1892-4abf-af63-83bde68b1ffe
 :END:
 #+title: Entry
+#+filetags: ENTRY
+
 
 This is the entry point for all the nodes
 
 * My Interests
+
 - [[id:d1d9fda3-fb43-4888-a179-7f24ad0554eb][Bioinformatics]]
--[[id:66025d03-ddac-4757-9f27-b2cbfe377b6c][ Machine Learning]] 
+- [[id:66025d03-ddac-4757-9f27-b2cbfe377b6c][Machine Learning]]
+- [[id:1d43e6ba-cd47-4cd5-90ec-efa31b429c2b][NixOS]]
+- [[id:0dd14a16-641a-4563-8e77-99923f9fc3d9][Emacs]]
+
+
+

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       54be60ca-a4d6-4afd-86cc-e2306d98d084
+:ROAM_REFS: https://www.nextflow.io/
+:END:
+#+title: Nextflow
+
+
+Nextflow is a tool for writing bioinformatics pipelines. It can be thought of as an alternative
+to GNU make.
+
+One feature of nextflow is the existence of [[id:9346a728-b536-4a32-853b-7a317bc9ff4a][subworkflows]]. This makes nextflow pipelines modular.

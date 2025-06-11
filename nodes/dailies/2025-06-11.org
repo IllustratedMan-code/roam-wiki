@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       f2f5dbbe-4197-4d7e-a3ee-1d7d0e546c6b
+:END:
+#+title: 2025-06-11
+
+
+Ok, so the intervene code doesn't actually combine the peaksets,
+instead, there is a script called =union_peaksets.R= located here
+
+PU.1/manuscript/Figures/old_analysis/upset_plot/union-peaksets.R
+
+
+This operates on reli_pairwise, which is a directory I generated with
+the =meta-to-reli= make target.
+
+To get this into nextflow, need to go back to the meta-to-reli script
+and adapt it to nextflow. Think that script submits reli jobs though,
+so may need to talk to andrew about getting the subworkflow

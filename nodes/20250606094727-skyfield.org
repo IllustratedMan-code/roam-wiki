@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       88414809-ff02-4fd0-a47a-124d1aac9ebf
+:ROAM_REFS: https://rhodesmill.org/skyfield/
+:END:
+#+title: Skyfield
+
+Skyfield is an api for python that allows one to calculate the positions of planets
+and their relationship to various locations.

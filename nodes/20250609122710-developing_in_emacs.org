@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       70eae9bf-6ebd-49fb-8616-4d7c702f1359
+:END:
+#+title: Developing in Emacs
+#+filetags: TODO
+
+Emacs lisp is an interesting language, to say the least. There are many "gotchas" that
+make development difficult. This note will try to detail some of these problems.
+
+** Evaluating Defvar forms
+
+When defvar is evaluated, it will create a variable according to its definition. However,
+repeated evaluation will not change the defition in memory under normal circumstances.
+
+It is possible to update the values using src_elisp{eval-defun} or src_elisp{eval-last-sexp).
+To [[https://emacs.stackexchange.com/questions/2298/how-do-i-force-re-evaluation-of-a-defvar][evaluate an entire buffer like this]], you can use the following elisp:
+
+#+begin_src elisp
+(defun eval-dev-buffer ()
+  "Execute the current buffer as Lisp code.
+Top-level forms are evaluated with `eval-defun' so that `defvar'
+and `defcustom' forms reset their default values."
+  (interactive)
+  (save-excursion
+    (goto-char (point-min))
+    (while (not (eobp))
+      (forward-sexp)
+      (eval-defun nil))))
+#+end_src
+
+
+

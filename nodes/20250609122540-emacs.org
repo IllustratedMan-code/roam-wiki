@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       0dd14a16-641a-4563-8e77-99923f9fc3d9
+:ROAM_REFS: https://www.gnu.org/software/emacs/
+:END:
+#+title: Emacs
+
+
+Emacs is a text editor that can be easily [[id:70eae9bf-6ebd-49fb-8616-4d7c702f1359][extended using emacs lisp]].
+
+
+One of the ways emacs does syntax highlighting is via a library called [[id:df0cfd54-5a07-496e-9201-c3f6acd5cb34][tree-sitter]].
+
+
+
+

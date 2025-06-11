@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       83bfae34-22e4-481d-91cd-ba6d9055e928
+:END:
+#+title: tree-sitter-modes
+
+#+filetags: TODO
+
+Treesitter is a syntax highlighting engine used by many editors. In this context, tree-sitter is
+the basis for a major-mode that uses treesitter syntax highlighting.
+
+A helpful tutorial: https://www.masteringemacs.org/article/lets-write-a-treesitter-major-mode

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       128a675e-e3f9-4d1e-b840-f01419875859
+:END:
+#+title: 2025-06-06
+
+
+I need to redo the makefile in the PU1 project. I think I'm going to just bite
+the bullet and switch to Nextflow. It's probably going to take some work, but the makefile
+is just not working right. It is too limited for my purposes.

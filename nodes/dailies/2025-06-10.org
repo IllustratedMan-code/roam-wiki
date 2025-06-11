@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       4f0d96ae-1d36-446e-9fe4-e48473482852
+:END:
+#+title: 2025-06-10
+
+
+I need to determine the best way to organize the PU.1 directory into a
+nextflow pipeline. It is possible that I can use subworkflows that each
+correspond to a makefile target, like figure1, figure2, etc.
+
+Then, I need to reorganize all of the data directories and track down
+the flow of data to find the original data inputs and organize those.
+
+Let's try to break this down into subtasks:
+
+- Find original data inputs
+- reoganize data directories into Data folder
+- connect existing scripts with subworkflows
+
+I think the point to focus on is the intervene code. That will get me from the
+current figure workflow to the original location of the data.
+
+
+Additionally, Andrew wanted me to look at the reusable subworkflows directory
+though, I'm not sure that they will be that useful.
+
+
+Also, I really need to rewrite this stupid darkroom-mode
