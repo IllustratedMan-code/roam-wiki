@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b705ed2f-ae35-4b41-8ee8-9fe88371734f
+:END:
+#+title: 2025-06-26
+
+
+I want to develop a way to easily containerize nextflow dependencies using nix.

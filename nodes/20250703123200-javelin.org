@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c6eb7005-c5d5-441b-a4de-422c9e7aec66
+:ROAM_REFS: https://lim.au/#/software
+:END:
+#+title: Javelin
+
+Javelin is a firmware used on steno capable keyboards. It requires considerably more
+flash memory than other keyboard firmwares, but is able to run the steno software directly
+on the board.
+

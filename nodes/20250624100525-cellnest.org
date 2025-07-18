@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       9bdcd6ae-bd7a-49f0-9c59-bd0d3824f81a
+:ROAM_REFS: https://github.com/schwartzlab-methods/CellNEST https://www.nature.com/articles/s41592-025-02721-3#Sec12
+:END:
+#+title: CELLNEST
+
+
+* Inputs
+- Spatial transcriptomics data
+- Ligand-receptor database
+- Expression threshold
+- Distance threshold
+
+* Preprocessing
+
+
+* Definitions
+- Relay Networks
+- Spatial transcriptomics
+  - Spots vs Cells
+  - 2D vs 3D
+- Merfish (single-cell)
+- Visium (Spots)
+  - requires cell segmentation
+- Knowledge graph
+- convolutional neural network
+- Encoder/Decoder
+- Embeddings
+- Structured vs Unstructured data
+- Single cell vs bulk transcriptomics
+  - Look at sample data
+- [[id:6d281e77-141d-4ad7-b29c-338f3d9cf0f4][Graph Neural Network]]
+
+
+* Questions
+- How do they identify paracrine/juxtacrine/etc
+
+* Questions to lab mates
+- Visium vs VisiumHD
+
+    
+* Potential Critiques
+- Database is Cancer focused??
+- Does the receptor ligand database being incomplete affect the output
+- Why did they pick specific thresholds?
+
+
+* Potential Questions
+- How does cell segmentation work?
+- 
+
+* future directions
+- How does signaling change in embryonic development

@@ -11,8 +11,11 @@ This is the entry point for all the nodes
 
 - [[id:d1d9fda3-fb43-4888-a179-7f24ad0554eb][Bioinformatics]]
 - [[id:66025d03-ddac-4757-9f27-b2cbfe377b6c][Machine Learning]]
+- [[id:61804c51-b1bf-4a77-8d07-afe2720618bc][Software Engineering]]
 - [[id:1d43e6ba-cd47-4cd5-90ec-efa31b429c2b][NixOS]]
 - [[id:0dd14a16-641a-4563-8e77-99923f9fc3d9][Emacs]]
+- [[id:8c7ce668-9c16-485f-bf08-9a09a868d514][Art]]
+- [[id:f33b74f2-bd1f-4e39-aa6c-5755fb41e6c9][Stenography]]
 
 
 

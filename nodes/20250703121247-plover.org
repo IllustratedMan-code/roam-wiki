@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       374598a3-6429-4387-8cf7-d6f277cf3abe
+:ROAM_REFS: https://www.openstenoproject.org/plover/
+:END:
+#+title: Plover
+
+Plover is a stenography software that works on almost any computer. It is essentially
+a program that takes in keyboard input and converts it into another form based on a /steno theory/
+written in JSON.
+
+
+

@@ -9,3 +9,17 @@ Nextflow is a tool for writing bioinformatics pipelines. It can be thought of as
 to GNU make.
 
 One feature of nextflow is the existence of [[id:9346a728-b536-4a32-853b-7a317bc9ff4a][subworkflows]]. This makes nextflow pipelines modular.
+
+
+
+
+* High Level Language description
+
+Nextflow is written using three main primitives (workflows, named workflows, and processes).
+It is essentially a superset of the [[https://groovy-lang.org/][groovy language]] (which is a layer on top of java).
+
+Workflows and processes generally do not contain side effects. This is important
+because processes can not emit side effects during execution as they are running
+on an HPC node. In essence, workflows and processes are special functions
+that can submit jobs to the HPC.
+

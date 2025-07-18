@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2d870655-3a40-4873-910f-970db4bfaf8c
+:END:
+#+title: RELI
+
+
+* Helpful links
+- [[https://github.com/WeirauchLab/RELI][RELI repo]]
+- [[https://hub.docker.com/r/weirauchlab/reli][Docker container]]

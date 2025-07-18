@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       9b856ca2-f332-4f02-a136-72aecf1a34f1
+:END:
+#+title: 2025-07-15
+
+
+Today I need to remove any extra garbage that is in the nextflow pipeline.
+I should be able to run the main.nf file without any errors.
+
+I'm rewriting the pipeline initialization scripts to handle excel sheets. I want to first
+convert the excel sheet, then convert it into a nextflow channel.
+
+This shouldn't be too difficult, but I also need to search the input directory and match to
+the csv paths.
+

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       61804c51-b1bf-4a77-8d07-afe2720618bc
+:END:
+#+title: Software Engineering
+
+
+Software engineering is as much about the build infrastructure as it is about the code.
+
+* Infrastructure Tools
+- Git
+

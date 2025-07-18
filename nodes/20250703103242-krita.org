@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       e296ce81-5f8a-4cce-bbaf-e404dd947567
+:ROAM_REFS: https://krita.org/en/
+:END:
+
+#+title: Krita
+
+Krita is a drawing and painting software that aims to replicate the feature set of
+photoshop for digital art. It is somewhat more userfriendly than [[id:946d0c50-27c5-4424-9d15-ca466c8e76d0][blender]], but can
+be used to do similar things in the 2D space. It shines in its brush selection
+and relative ease of use. 

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       87255326-d8ac-499c-81b0-026f281df7b4
+:ROAM_REFS: https://pandoc.org/
+:END:
+#+title: pandoc
+
+Pandoc is a document converter that converts between various markup/document formats.
+It is written in haskell.

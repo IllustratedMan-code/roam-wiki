@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       f33b74f2-bd1f-4e39-aa6c-5755fb41e6c9
+:END:
+#+title: Stenography
+
+
+Stenography is a form of writing where the words are formed phoenetically. This can be much
+faster than regular typing, but is considerably harder to learn. I find it easier to think
+in, like there is less of a barrier between me and the words. Since many words are typed in
+one stroke, there is no mental load from spelling. I also can spell unfamiliar words without knowing
+how they are spelled as long as I know how to pronounce them.
+
+* Software/Firmware
+- [[id:374598a3-6429-4387-8cf7-d6f277cf3abe][Plover]]
+- [[id:c6eb7005-c5d5-441b-a4de-422c9e7aec66][Javelin]]
+  
+* Steno Theories
+- [[id:1dcdc5be-62bd-47ce-91d1-6ffe8dab6566][Lapwing]]

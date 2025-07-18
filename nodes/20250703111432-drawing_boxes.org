@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       3906157e-20c8-49b5-958c-a529889c060d
+:END:
+#+title: Drawing Boxes
+
+This seems like an excercise that many artists recommend. By drawing many boxes,
+one begins to understand a form's place in 3D space.
+
+One of the things I struggle the most with is consistency. By drawing similar shapes
+over and over, this should be improved.
+
+* Tutorial
+Here is a [[https://drawabox.com/lesson/250boxes][Tutorial]] that goes into great detail on how you should draw your boxes.
+I think that while this may be effective, drawing lots of boxes will just help, especially
+if one looks at each box when they finish and contemplate how they might rotate it.
+
+A real box is also helpful, as certain changes in perspective will change how the box looks.
+I model my boxes in blender, which also gives me a light reference. I can freely change the scale
+of the box.

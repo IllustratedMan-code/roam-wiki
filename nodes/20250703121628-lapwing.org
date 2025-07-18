@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       1dcdc5be-62bd-47ce-91d1-6ffe8dab6566
+:ROAM_REFS: https://lapwing.aerick.ca/
+:END:
+#+title: Lapwing
+
+Lapwing is a steno theory based on the default theory in Plover. The original
+Plover theory was developed over long years in the live captioning profession and was
+originally based on the national captioning institute's theory, which was in turn based
+on the StenED theory. Lapwing is intended to trim the fat from these theories and remove as many
+inconsistencies in the theory as possible.
+
+This makes Lapwing easier to learn but potentially slower than the other theories. Since
+I am a hobbiest stenographer, I don't need the theoretical speed, but greatly benefit from
+the ease of use.

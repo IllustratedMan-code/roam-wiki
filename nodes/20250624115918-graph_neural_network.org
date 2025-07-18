@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6d281e77-141d-4ad7-b29c-338f3d9cf0f4
+:END:
+#+title: Graph Neural Network
+
+Helpful article: https://distill.pub/2021/gnn-intro/
+
+

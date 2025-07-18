@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       245ba781-4b50-48e6-a2ae-04769d71bd97
+:END:
+#+title: 2025-06-23
+
+
+Today, there is a meeting about the PU.1 project. I just updated my pathway analysis
+figure ([[id:5b5bc282-31e2-4eb5-8298-434be3577e1d][GREAT]]), but I am not quite satisfied with it.
+
+The top ten terms are currently selected after intersection with GO slim terms.
+Maybe it makes more sense to do it after? I'm not sure. In the meeting, we decided this was mostly
+fine, but needs an additional p value cutoff. I now need to adjust the p value to correspond
+the number of go slim terms.
+

@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       8c7ce668-9c16-485f-bf08-9a09a868d514
+:END:
+#+title: Art
+
+More specifically visual art.
+
+I'm interested in digital art and drawing (like, with a pencil). Particularly for video game
+design and presentation aids.
+
+* Software
+- [[id:946d0c50-27c5-4424-9d15-ca466c8e76d0][Blender]] (Free + open source)
+- [[id:e296ce81-5f8a-4cce-bbaf-e404dd947567][Krita]] (Free + open source)
+- [[id:b098f0c7-11e1-4256-bf3e-809757c8aeb6][Infinite Painter]] (Paid + closed source), but easy to use on android tablet.
+
+* Learning Excercises
+- [[id:3906157e-20c8-49b5-958c-a529889c060d][Drawing Boxes]]
+
+
+* Why get better at drawing if I can just 3D model it?
+
+I've found that when I understand how to draw something in 2D space, it become much easier to get
+that form out of a 3D sculpture. Understanding how lighting works in 2D also makes it easier
+to place lights in 3D. I.e. I know what it /should/ look like, so getting there by trial
+and error becomes much easier.
+
+To be honest, I'm not sure why this is the case. Just like stenography, there is a certain
+weirdness to drawing that I'm unable to explain in deterministic terms.
+
+interestingly enough, there are very few skills that I feel have this attribute.

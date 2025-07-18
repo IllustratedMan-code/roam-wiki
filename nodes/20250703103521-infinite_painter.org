@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b098f0c7-11e1-4256-bf3e-809757c8aeb6
+:ROAM_REFS: https://www.infinitestudio.art/discover.php
+:END:
+#+title: Infinite Painter
+
+Infinite painter is essentially [[id:e296ce81-5f8a-4cce-bbaf-e404dd947567][Krita]] but is not free or open source. However,
+Infinite painter is particularly well set up for use with a touch screen, making it
+more ideal for Android. Since I have an android tablet, I use this app.
+

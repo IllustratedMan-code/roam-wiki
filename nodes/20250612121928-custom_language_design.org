@@ -1,0 +1,133 @@
+:PROPERTIES:
+:ID:       83e6f043-2102-4e9d-9bac-d48d259bc878
+:END:
+#+title: custom language design
+#+filetags: INBOX
+
+I want to make a language that makes it easy for new programmers, and
+more specifically, easy for people new to computer tooling. To that
+end, the perfect language would have an easy to understand syntax,
+be inextricable from its own build system/package manager. Additionally,
+the language should be the /only/ language that the user will need. To
+make this possible, the language should be interpreted as well as compiled, thereby
+enabling efficient code when needed, but also enabling real-time feedback for results.
+
+Many features typically implemented as external modules for other languages should be
+built-in to ensure consistency across users. For example, automatic docstring to documentation
+conversion will be built in. Additionally, code formatters, syntax highlighting (treesitter?),
+and language server protocol should be implemented as first party software.
+
+* Some features
+- JIT compiler
+- static compiler
+- interpreter
+- docstrings
+- partially automatic documentation
+- Language server protocol server
+- debug adapter protocol server
+- Treesitter grammar
+- Customizable grammars (js-syntax, py-syntax)
+
+* Comparisons to other languages
+
+** Rust
+
+Rust solves many of these problems, but is held back from general use by its uncommon features
+and difficult to understand syntax. Additionally, Rust does not have interpreter support by default.
+
+- Cargo is excellent (solves most packaging issues)
+- Automatic documentation
+- Easy to understand compiler errors (with helpful context)
+  
+
+** Python
+
+Python, by contrast is extremely popular, mostly due to its easy to learn syntax. It is in
+fact, a terrible language by comparison to Rust, but is easy to learn and thus widely used.
+
+So what makes python easy to learn? The syntax is very easy to learn, and python is interpreted,
+meaning that running individual lines and experimenting with the syntax is possible. Additionally,
+python has dynamic types, meaning a user does not have to really learn what a type is before
+getting their hands dirty.
+
+
+
+* Unique Solutions in this language
+
+** Dynamic syntax
+
+Multiple syntax forms could exist that are translated into some intermediate representation.
+Since lisp is very close to an abstract syntax tree, lisp could be the "base" language, and
+additional grammars could be written that translate into this base language. Ideally, python
+and javascript syntax should be first-party grammars. This could feed into the automatic documentation
+by having a translator to each grammar, so viewing source code for a function in a library could
+use the syntax the user is most comfortable with.
+
+*** Technical challenges
+
+This would be difficult as a reader parser and a writer parser would have to be developed, leading
+to similar problems that [[id:87255326-d8ac-499c-81b0-026f281df7b4][pandoc]] faces. I have some ideas for some sort of equivalent grammer rule
+system where a code analyzer could determine a likely heuristic for converting between the
+two grammers.
+
+** Parallel computation
+
+To increase the user-friendly-but-fast nature of this language, vectorized operations (i.e. pure functions)
+should be automatically parallelizable (potentially even without user definition). Even some loops could be
+parallelizable depending on the use-case. To this end, this language will need a very powerful static
+checker that can compute if/when a function should be parallelized. GPU math optimizations could
+also be built into the compiler/checker. So if GPU is available and the user is performing
+tensor-like multiplication operations, then the GPU can be used to speed up computation.
+
+*** HPC job optimization
+
+Additionally, there should be some method to run HPC jobs via LSF/slurm/etc that takes advantage of the
+automatic parallization. This can be pure-only functions. The macro system could be used in a similar way
+to [[id:54be60ca-a4d6-4afd-86cc-e2306d98d084][Nextflow]], to allow arbitrary script definitions in whatever tool/language is required. This would require
+some additional build system/containerisation for the languages in question though. probably docker.
+
+** Developer considerations
+
+Care should be taken in setting up the architecture of the language. Very few functions should be
+available in the base language, but a core library will exist that would contain modules important
+to normal development. This way, new functions are easy to add without increasing the technical
+debt of the entire project. Third-party modules could be absorbed into the core as desired.
+There would need to be a very stringent set of standards for the extension api however to ensure that
+the need for breaking changes would be very low. (i.e. add features, don't take them away).
+
+A way we could ensure that dependencies are being met is by building the package manager directly
+into the language. That way we could pin dependencies for packages even if they depend on the core.
+That way we could take the experimental, but not unstable paradigm that nixos uses.
+
+** User considerations
+
+Taking the rust approach, the user will be considered an idiot. Because we all are. This means
+that an opinionated formatter will be shipped with the language. This insures that all projects
+will have consistently organized code. This will run any time a project is built.
+
+Speaking of, packages or projects will have a very specific format that the compiler
+will enforce. I think it is reasonable for many of the opinionated features to be disabled,
+but they should be enabled by default. This ensures that any new or lazy programmers will
+match the requirements for project publishing by default.
+
+The compiler should be very clear, no backtrace by default, simply a bit of the code
+context (location + a few lines) and a clear error message with potential tips. backtraces
+of course would be available.
+
+A bit of a stretch goal, but there should be a specialized editor for this language. I do
+have some ideas for an emacs-like editor extendable with the language itself. Instead of the
+no-config approach of emacs, the default would intend to be easy to use for the large majority
+of developers.
+
+
+
+
+* How to make a language user friendly, yet avoid pitfalls?
+
+In the bioinformatics field, the current leaders in user-friendly language design
+are python and R. However, there are many problems with both languages.
+
+While the package managers for both languages are not good, a problem with the language
+itself is the tendency to make copies in memory.
+
+

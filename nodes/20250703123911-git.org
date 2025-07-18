@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       0ba0e451-8b03-48ea-9b53-59e83afdeb8c
+:END:
+#+title: Git
+
+
+Git is version control software.
+
+
+
+
+- [[https://github.com/BMI-UC/Git-or-how-I-learned-to-stop-worrying-and-love-version-control][How I learned to stop worrying.]]

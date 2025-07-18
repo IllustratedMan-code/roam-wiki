@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       946d0c50-27c5-4424-9d15-ca466c8e76d0
+:ROAM_REFS: https://www.blender.org/
+:END:
+#+title: Blender
+
+Blender is a free open source 3D modeling/Animation software. While many would say
+that blender may not be particularly good at any particular task (compared to paid alternatives),
+it shines in its versatility. Pretty much any step along the 3D animation pipeline is covered,
+whether that be video editing, compositing, modeling, sculpting, etc.
+
+

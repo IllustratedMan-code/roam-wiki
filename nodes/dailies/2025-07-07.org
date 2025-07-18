@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       86058117-09ce-46ac-b978-e2c4b9e7b16f
+:END:
+#+title: 2025-07-07
+
+Today I need to meet with Shreeja about the phenotype RElI.
+I also need to work on the nextflow stuff.
+
+* Phenotype RELI
+
+- Do everything that is autoimmune (in excel sheet)
+- Autoimmune, Inflammatory immune allergic IBD Infections, Cancer
+- Ancestry is in gwas directory
+- Try to use nextflow workflow from Andrew
+
+
+
+* Nextflow pipeline design
+
+
+Due to the existence of named workflows, I can create a sub-workflow that
+correspond to each make target. I want to allow the data to be setup in a
+similar way to the existing script, so sub-directories for each of the data
+orgin. Then I can use the metadata to find the paths for the data files.
+
+- Can nextflow search directories? (Yes, can use globs)
+
+
+  
