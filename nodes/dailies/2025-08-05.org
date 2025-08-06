@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       85cb147f-36ae-48cd-afb9-b4afd5f7eab4
+:END:
+#+title: 2025-08-05
+
+Today I need to organize myself by beginning to
+understand my old script and potentially trying to
+put it in nextflow.
+
+
+The inputs to the script are homer results. So,
+all I need to do is write a nextflow pipeline that takes homer
+results as inputs. So, I should come up a template repo that can be used for
+pipelines separated into different scripts. Then, a makefile can handle them I guess.
+
+

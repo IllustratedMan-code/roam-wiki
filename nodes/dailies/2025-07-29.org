@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f2c10874-deb6-4c51-bce4-faa965b85dd4
+:END:
+#+title: 2025-07-29
+
+
+I need to work on the nextflow figure
+
+I need to create a heatmap that only shows b-cells
+I need to create a heatmap that only shows b-cells and diseases

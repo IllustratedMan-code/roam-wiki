@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       872ad867-1481-4830-ac8d-30c388760739
+:END:
+#+title: 2025-07-31
+
+
+* TODOS
+- [ ] Meeting with Matt and Leah
+- [X] Look at MARIO Email (still don't understand)

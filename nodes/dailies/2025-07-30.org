@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       634d4bca-4a53-4e12-8657-39cd874f39f3
+:END:
+#+title: 2025-07-30
+
+
+Today I need to:
+
+- [X] remake dotplot using new bed files
+- [X] look at nextflow pipeline
+- [X] remake heatmap according to lucinda's instructions

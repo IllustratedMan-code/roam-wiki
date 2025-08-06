@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       7926e3f4-bf11-456b-b54d-5abf05ac2755
+:END:
+#+title: 2025-07-28
+
+
+- [X] Make heatmap for Phenotype RELI results (run4).
+- [ ] Take another look at the nextflow pipeline version.
+
+Basophil count
+Basophil percentage of white cells
+
+Granulocyte_percentage_of_myeloid_white_cells
+
+Eosinophil Counts
+
+Monocyte Counts
+
+Monocyte Percentage of white cells
+
+Neutrophil Count
+
+neutrophil percentage of granulocytes
+neutrophil percentage of white cells
+
+White blood cell count
+
+Systemic Lupus erythematosus
+
+Ulcerative Colitis
