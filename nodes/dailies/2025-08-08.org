@@ -7,3 +7,9 @@
 Today, I need to continue working on the nextflow pipeline by generating
 the required metadata csv for andrew's reli module, and create unit tests
 that generate the required archive for andrew's reli module.
+
+...
+
+Alright, I think I set up the pathing correctly, however, it still relies
+on absolute paths, so I can't test it on my computer. I can either shift
+to relative paths somehow, or deal with it for the time being.
