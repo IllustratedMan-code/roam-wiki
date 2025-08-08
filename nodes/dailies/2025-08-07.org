@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       0d57f21b-eaeb-4ecb-8ffc-b27ddd524965
+:END:
+#+title: 2025-08-07
+
+
+So, I need to reorganize the nextflow pipeline for PU1 because the git history got fucked.
+Unfortunate, but I want to trim the fat from the nf-core template anyway. Looks like I need to
+put the main.nf in the root of the repo to enable remote execution.
+
+...
+
+Actually, it looks like the main.nf can be specified in the nextflow.config, so I can put it in the src directory
+
+...
+
+
+So, I have cleaned the directory significantly. What I need to do is prepare
+the files for phenotype reli. To do this, I need to take in both the samplesheet
+containing the gwas as well as the samplesheet containing the metadata + paths to files.
+
+So lets do that.
+
+...
+
+Ok, So I added a way to get the files in to nextflow, and I've partially set up a script
+that will add all files that are inputs to reli into an archive.
+
+This archive will be used as an input to andrew's reli module.
+
+I should also start a module that just takes a metadata object containing paths to homer directories.
+
+Hopefully this should only take me a few days to accomplish.
+
+I should be able to update the homer figure at least while I continue work on the reli module.
+
+
+I need to find a solution to the pipeline development problem though.

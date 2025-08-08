@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       11bdc1c4-28dd-4f34-8a93-7146d3325073
+:END:
+#+title: 2025-08-08
+
+
+Today, I need to continue working on the nextflow pipeline by generating
+the required metadata csv for andrew's reli module, and create unit tests
+that generate the required archive for andrew's reli module.
