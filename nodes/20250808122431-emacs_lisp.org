@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d07842c6-e0a1-4024-988b-f4d6de1fbe5c
+:END:
+#+title: Emacs lisp
+#+filetags: TODO
+
+Emacs lisp is a dialect of [[id:3ab0fa01-fee2-44c2-a42f-81c28a178ef2][lisp]] written exclusively for the Emacs editor.

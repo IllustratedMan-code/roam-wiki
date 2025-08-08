@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2775e265-8925-4184-b409-d329851282cc
+:ROAM_REFS: https://github.com/mattwparas/steel
+:END:
+#+title: Steel
+
+Steel is a [[id:307edec2-2532-4751-bea6-9494b7224670][scheme]] interpreter written in rust. It is very easy to embed into
+rust applications, making it a prime target for a configuration language in
+rust applications.

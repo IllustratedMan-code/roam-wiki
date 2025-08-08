@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       307edec2-2532-4751-bea6-9494b7224670
+:END:
+#+title: scheme
+#+filetags: TODO
+
+
+Scheme is a language very similar to [[id:3ab0fa01-fee2-44c2-a42f-81c28a178ef2][lisp.]]

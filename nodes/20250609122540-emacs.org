@@ -7,6 +7,9 @@
 
 Emacs is a text editor that can be easily [[id:70eae9bf-6ebd-49fb-8616-4d7c702f1359][extended using emacs lisp]].
 
+[[id:d07842c6-e0a1-4024-988b-f4d6de1fbe5c][Emacs lisp]] applies the "add all possible features" approach to its design,
+meaning it has about every possible features that a programming language can have
+including OOP, Native Compilation, Tail end recursion, etc.
 
 One of the ways emacs does syntax highlighting is via a library called [[id:df0cfd54-5a07-496e-9201-c3f6acd5cb34][tree-sitter]].
 

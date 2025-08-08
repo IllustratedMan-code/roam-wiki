@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3ab0fa01-fee2-44c2-a42f-81c28a178ef2
+:END:
+#+title: lisp
+#+filetags: TODO
+
+Lisp is one of the simplest languages to write, yet is elegant in its own way.
+Particularly, lisp typically implements a macro system for extending itself.
