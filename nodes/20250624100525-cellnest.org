@@ -5,13 +5,13 @@
 #+title: CELLNEST
 
 
+Cell Nest is a program designed to predict a [[id:20b07bcd-d737-42e4-81f9-b13043a81006][gene regulatory network]].
+
 * Inputs
 - Spatial transcriptomics data
 - Ligand-receptor database
 - Expression threshold
 - Distance threshold
-
-* Preprocessing
 
 
 * Definitions

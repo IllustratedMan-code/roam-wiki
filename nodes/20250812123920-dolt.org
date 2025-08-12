@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7dd2e95a-b1b4-45cd-9bf1-1e72635a4555
+:ROAM_REFS: https://github.com/dolthub/dolt
+:END:
+#+title: Dolt
+#+filetags: TODO
+
+Dolt is a mysql database that can be manipulated with git-style commands
+
+

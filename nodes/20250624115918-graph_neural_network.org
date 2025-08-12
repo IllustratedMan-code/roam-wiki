@@ -2,7 +2,11 @@
 :ID:       6d281e77-141d-4ad7-b29c-338f3d9cf0f4
 :END:
 #+title: Graph Neural Network
+#+filetags: TODO
+
 
 Helpful article: https://distill.pub/2021/gnn-intro/
 
-
+A graph neural network is a type of [[id:4b274313-aa03-4018-8c3c-bbd0a51e7a7e][neural network]] that learns the relationships between nodes in a graph.
+The difference between a graph neural network and a regular neural network is that each node directly corresponds
+to some feature of the data, meaning the weights can be used directly, rather than by proxy (via a classifier).

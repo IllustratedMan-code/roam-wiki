@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4b84d190-441d-4966-8faa-f36c3030e034
+:END:
+#+title: 2025-08-11
+
+
+Today I need to actually generate the archive needed for the pipeline and write a process that calls RELI
+using the paths in the gwas.
+
+For the gwas, I need to set the path to the GWAS, then feed in the excel
+document.
+
+If I get bored, I should work on my git presentation.

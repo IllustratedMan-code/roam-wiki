@@ -3,6 +3,18 @@
 :END:
 #+title: RELI
 
+RELI is a tool used to perform comparison analysis
+between CHIP-seq peak sets. It essentially finds the peaks that overlap
+and assigns a probability to that overlap.
+RELI is developed by the [[id:07b48a23-b9b4-4d30-ab3a-ade50241355a][weirauch lab]].
+
+There are two main paradigms of RELI usage: phenotype RELI and pairwise RELI.
+
+These two paradigms are only different in that they use different sources of
+BED files for their operation. Phenotype RELI requires BED files corresponding
+to specific phenotypes. Each phenotype is then "RELIed" on the dataset of interest (a group of bed files).
+Pairwise RELI simply uses one bed files in the dataset of interest and "RELIes" it against all the other
+bed files in the dataset.
 
 * Helpful links
 - [[https://github.com/WeirauchLab/RELI][RELI repo]]

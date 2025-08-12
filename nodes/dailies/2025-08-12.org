@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       a4d8a855-875f-4240-8f3f-e145e93a484f
+:END:
+#+title: 2025-08-12
+
+
+Today, I need to come up with a RELI nextflow script.
+Taking the archive, I need to write a pipeline that stages
+a file from the gwas, then runs reli on it.
+
+
+If there is extra time, I should add a pairwise reli script as well.
+
+...
+
+Instead, I created a script for the homer figure.

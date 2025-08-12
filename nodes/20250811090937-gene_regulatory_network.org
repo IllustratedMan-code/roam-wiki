@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       20b07bcd-d737-42e4-81f9-b13043a81006
+:ROAM_ALIASES: GRN
+:END:
+#+title: gene regulatory network
+#+filetags: TODO
+
