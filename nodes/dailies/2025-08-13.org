@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       e56c3ac5-c664-4eb2-b94e-c61d7cfb6747
+:END:
+#+title: 2025-08-13
+
+
+Today, I need to ask Andrew about the reli container.
+
+Also, I need to finish the Homer viz script.
+
+Ok, So I need to add the homer files to the test.
+
+-----
+
+Ok, added the homer files to the test, and got the nextflow
+script in shape. But I still need to edit the barplot script
+as the way nextflow stages files makes it difficult to use
+directory names as metadata. Nextflow developers consider this
+an antipattern, which is annoying.
+
+I also need to create a new container for this, as there are some dependencies (namely scipy) missing.
+  
