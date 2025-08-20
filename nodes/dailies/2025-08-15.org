@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       59234a65-6433-4cc9-a82e-0aa48590d555
+:END:
+#+title: 2025-08-15
+
+
+Today, I need to try to get that reli thing to work,
+might need to use the singularity backend instead of
+the apptainer.

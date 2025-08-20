@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       62db1509-983f-4574-8dc3-12bcf297fac3
+:END:
+#+title: 2025-08-18
+
+
+Today, I need to at least generate the new bar plot
+by testing the homer script on the cluster.
+
+
+-----
+
+Ok, I got the bar plot to generate.
+
+-----
+
+Ran into a weird compute node problem, but
+I figured out how to exclude bad compute nodes
+in the lsf.config.
+
+
+-----
+
+Tommorrow, I need to sort out the phenotype reli buisness
+
+
+
