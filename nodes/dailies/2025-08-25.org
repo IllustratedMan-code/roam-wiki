@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       006edad5-8dc0-495a-b694-67cd0fabbc31
+:END:
+#+title: 2025-08-25
+
+So, first, let's check out the new classes for this semester and see if I need to get any new textbooks.
+
+Ok, so the patient safety class is not there yet, but the database class is.
+
+It appears that I do not have to do anything before starting class tomorrow.
+
+-----
+
+Ok, I think I should set up the phenotype reli before I forget what I am doing again.
+I'll hold off on the nextflowification of it until phil's version is ready to be containerized.
+
+Think that would be a lot easier than the old version anyhow.
+
+That being said, I need to get the sets from Molly's email as well as the bed files from the Homer run.
+So let's do that.
+
+Ok, I think I set up a script that will copy all the bed_files in correctly, the only thing I need is Molly's
+info about how she generated the merged sets.
+
+-----
+
+Now, I need to set up Phil's nextflow figure.
+
+The first thing I have to do is rewrite the python script a bit, then I need to recreate what the
+workflow should be based on the description he gave me.  I have hopefully rewritten the python script
+well enough, so on to the work flow.
+
+I needed to ask Phil about the nextflow script as I didn't understand what a variable meant.
