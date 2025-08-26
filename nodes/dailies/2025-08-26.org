@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       1bef2748-62da-4f82-be50-f188ae93a678
+:END:
+#+title: 2025-08-26
+
+
+Today, I need to look more into the script that Phillip sent and try to adapt for our purposes.
+Also, I need to look at Molly's script and finish setting up RELI.
+
+According to Phil, the chromHMMalign script takes some reference bed file.
+-----
+
+I emailed everybody about it, so hopefully they will have some idea. Now I'll see if
+I can sus out molly's merge script.
+
+-----
+
+I now have a path to the blacklist and chromHMM file so I can move ahead with that
+
+I should check out molly's script in the last 10 minutes
