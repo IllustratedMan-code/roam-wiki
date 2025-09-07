@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       b55fa09a-c8b6-42c3-b0da-e6381adcb70c
+:END:
+#+title: Cis-BP
+
+- An online library of transcription factors and their DNA binding motifs
+- Developed by [[id:07b48a23-b9b4-4d30-ab3a-ade50241355a][Weirauch lab]]
+
+* Database of Binding motifs for TFs
+- multiple TFs can interact and bind differently, resulting in composite motifs
+- JASPAR, TRANSFAC(paid) are alternatives
+- Cis = Catalogue of inferred sequence
+- 741 species, 89 tf families
+
+** CapSelex data is used to generate motifs
+- TF-TF binding data
+- Can generate motifs not found /in vivo/
+
+** Similarity regression is an algorithm to compare motifs
+
+  
+

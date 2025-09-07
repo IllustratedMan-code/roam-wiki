@@ -4,3 +4,11 @@
 #+title: NixOS
 #+filetags: TODO
 
+
+NixOS is an operating system that only uses the [[id:f556676a-8f2d-44d4-8bd2-84850743d4dc][Nix package manager]].
+
+
+
+* Installers
+- Graphical Iso
+-[[https://github.com/km-clay/nixos-wizard][ TUI installer]]

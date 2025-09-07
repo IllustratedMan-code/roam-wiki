@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f556676a-8f2d-44d4-8bd2-84850743d4dc
+:ROAM_REFS: https://github.com/NixOS/nix
+:END:
+#+title: Nix package manager
+
+The nix package manager is separated from other package managers by being declaritive,
+package definitions are defined in a configuration file, rather than imperitively installed.

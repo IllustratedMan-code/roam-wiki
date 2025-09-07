@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       46e70c66-9531-4197-a444-e4e96c29dd32
+:ROAM_REFS: https://github.com/km-clay/nixos-wizard
+:END:
+#+title: nixos-wizard
+
+Nixos wizard is a terminal user interface for installing NixOS
