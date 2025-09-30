@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       9bebdaa6-de8f-4a54-8915-9bc817b4262f
+:ROAM_REFS: [cite:@clarkP229IntegratedAnalysis2022] https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(22)00094-7/fulltext
+:END:
+#+title: systemic-sclerosis-freudenberg
+
+This is a[[id:d1d9fda3-fb43-4888-a179-7f24ad0554eb][ Bioinformatics]] paper that aims to create a new diagnostic metric by identifying important biomarkers.
+
+** Key terms
+- [[https://en.wikipedia.org/wiki/Scleroderma][Systemic Sclerosis]] (scleroderma) is a multicompartment disease characterized by thickening of the skin and organ failure
+- [[https://pmc.ncbi.nlm.nih.gov/articles/PMC5431585/][mRSS]] is a scoring system used to determine the severity of the disease
+- [[https://fuzzyatelin.github.io/bioanth-stats/module-F21-Group1/module-F21-Group1.html][WGCNA]] is a method for associating genes that coexpress together (R package)
+
+
+** Introduction
+
+Systemic sclerosis is a multicompartment disease typically diagnosed using the mRSS score via visual inspection of palpated skin. Skin thickness is
+used as proxy for the severity of the disease. This score is not very reliable between scorers. This study attempts to create a metric that
+uses plasma proteins levels as a proxy for severity of the disease.
+
+** Methods/Results
+
+This paper takes advantage of the fact that RNA-seq signatures are well-known in the skin for this disease.
+As an intermediary between the skin and blood, they chose to induce blisters in the skin and harvest the fluid.
+Then they did proteomics on the fluid, RNA-seq on the skin, and proteomics on the plasma, and RNA-seq on the blood.
+
+RNA-seq results from the blood didn't correlate well with the skin, so not much analysis was done.
+
+
+
+
+
+
+
+
+
+
+ 
+

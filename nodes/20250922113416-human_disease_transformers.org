@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       3c35e555-528a-404f-b33d-1b792fc37fca
+:ROAM_REFS: [cite:@shmatkoLearningNaturalHistory2025] https://www.nature.com/articles/s41586-025-09529-3
+:END:
+#+title: human-disease-transformers
+#+filetags: TODO
+
+
+
+This is a [[id:d1d9fda3-fb43-4888-a179-7f24ad0554eb][bioinformatics]] paper that attempts to predict disease progression from past disease status.
+[cite:@shmatkoLearningNaturalHistory2025]
