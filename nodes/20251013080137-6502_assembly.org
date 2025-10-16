@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       2b389592-a2d9-4292-be81-6be5f23070a9
+:END:
+#+title: 6502 assembly
+
+6502 assembly is the assembly langauge for the [[https://en.wikipedia.org/wiki/Nintendo_Entertainment_System][NES]]. It was also used in many other
+relevant micro controllers at the time (the 80s). While [[https://en.wikipedia.org/wiki/C_(programming_language)][C]] existed, most niche systems
+did not have a C compiler. Additionally, C programs would have been too big to run in most
+cases. So to get the most out of the hardware, one would write the assembly specific
+to the CPU.
+
+A great tool for learning this assembly language is [[https://github.com/JumpLink/Learn6502][Learn 6502 Assembly]] ([[https://search.nixos.org/packages?channel=25.05&show=learn6502&query=6502+assembly][nixpkgs link]]).
+
+Assembly langauges are great for learning how the computer actually interprets instructions, as there
+is very little abstraction between an assembly file and a binary. In my point of view, at least a short
+introduction to assembly should be required in a [[id:25d56655-6b6e-4679-827a-b10a477e238c][Computer Science]] Degree

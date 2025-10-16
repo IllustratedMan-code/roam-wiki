@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       25d56655-6b6e-4679-827a-b10a477e238c
+:END:
+#+title: Computer Science
+
+Computer science is the study of computers and computer algorithms. It is intrinsically
+related to[[id:61804c51-b1bf-4a77-8d07-afe2720618bc][ Software Engineering]]. 

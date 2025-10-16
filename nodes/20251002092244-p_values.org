@@ -1,0 +1,63 @@
+:PROPERTIES:
+:ID:       df9bae50-78e4-450d-bcae-98c90b893701
+:ROAM_REFS: https://en.wikipedia.org/wiki/P-value
+:END:
+#+title: p-values
+
+
+[[id:69a7e419-0fec-42dd-9951-d2747c7e52b4][Statistics]] models often depend on hypotheses that are logical opposites. I.e.
+X is True if Y is False and Y is True if X is false. These two hypotheses are often
+called the null hypothesis and the alternative hypothesis.
+
+More specifically, the null hypothesis usually posits that two variables, or types of
+event are independant of each other. The alternative hypothesis must be logically
+opposite to the null hypothesis, so in this case it would be "two variables are not independant"
+or are "related" in some way. It is important to note that this alternative hypothesis does not make
+any further assumptions about the relationship bewtween the two variables.
+
+
+A p value is a measure of likelyhood under the null hypothesis. I.e. How likely is it for an
+observed event to occur given that the null hypothesis is true. So a p value of 0.5 means that
+there is a 50% chance of the observed event to occur given the null hypothesis.
+
+If the p value is close enough to zero, then one can reject the null hypothesis. One is
+betting that the null hypothesis isn't true. Even given a low p value, it is possible for
+the null hypothesis to be true, but it is unlikely. This is the key proposition made by
+statistical inference. We don't need to be "sure" of anything, we just have to be
+smart gamblers.
+
+A typical p value cutoff to assign significance is 0.05. This means that there is a 95% chance
+that the null hypothesis is False. Since the alternative hypothsis should be logically opposed to
+the null hypothesis, then we can say that there is a 95% chance that the alternative hypothsis is
+True. 95% seems like good odds, but it means that the inference that the alternative hypothesis
+is true is likely to be wrong 5% of the time. So given an infinite number of statistical tests with
+this cutoff, 1/20 will be wrong.
+
+** Aggregating p values
+:PROPERTIES:
+:ID: Aggregating P values
+:END:
+
+Given a set of p values, what is the best way to represent them using a single value?
+
+
+
+*** Fisher's method
+:PROPERTIES:
+:ID: Fisher's Method
+:ROAM_REFS: https://en.wikipedia.org/wiki/Fisher%27s_method
+:END:
+
+Fisher's method takes a set of p values, calculates the natural log of each value, then sums them
+together, after which, they are multiplied by -2. This results in a test statistic.
+
+The test statistic is assumed to come from a chi squared distribution with degrees of freedom
+equal to 2 * # of p values. Then a chi squared test is performed, which calculates the area inside
+the chi squared distribution bounded by the test statistic and infinity.
+
+Since the area of the chi squared distribution is equal to one, then the final p value is given
+by the area bounded by the test statistic and infinity. I.e. how likely is a value equal or greater
+than the test statistic to occur in the chi squared distribution with 2 * # p_values degrees of freedom.
+
+
+

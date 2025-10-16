@@ -6,6 +6,5 @@
 #+filetags: TODO
 
 
-
 This is a [[id:d1d9fda3-fb43-4888-a179-7f24ad0554eb][bioinformatics]] paper that attempts to predict disease progression from past disease status.
 [cite:@shmatkoLearningNaturalHistory2025]

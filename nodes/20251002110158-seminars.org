@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       441dbd50-0f5f-4a16-b01f-74b9791584a9
+:END:
+#+title: seminars
+
+A log of seminars I have been to.
+
+
+
+
+
+* Johannes FreudenBerg
+:PROPERTIES:
+:TITLE: Data-Driven Decisions: Computational Biology's role in Drug discovery and development
+:END:
+- Title is ChatGPT generated from outline
+- Dr. FreudenBerg is working at GSK
+- Drug discovery pipeline is well structured and takes 10+ years normally
+  - Takes more than a Billion dollars
+
+- Cell painting model attempts to identify drug targets
+- Biomarks are easy to target
+- Large language models may or may not be the future of analysis, though currently the
+  fallibility is too high

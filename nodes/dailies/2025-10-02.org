@@ -1,0 +1,4 @@
+#+title: 2025-10-02
+
+Today, I need to fix some heatmaps,
+and start work on implementing the UMAPs in nextflow.

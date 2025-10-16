@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       69a7e419-0fec-42dd-9951-d2747c7e52b4
+:END:
+#+title: Statistics
+
+
+Statistics is a method of understanding the world in terms of probability.
+The likelyhood of an event occuring can be independant, or dependent on other events.
+
+Statistical methods can be used to predict when an event is likely, or unlikely to occur.
+Statistics should not be used as an absolute predictor of events. It's not "This will happen",
+it is, "This will probably happen".
+
+
+Statistics is especially relevant to the field of [[id:d1d9fda3-fb43-4888-a179-7f24ad0554eb][bioinformatics]]. 
+
+

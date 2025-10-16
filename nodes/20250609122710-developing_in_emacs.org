@@ -12,8 +12,11 @@ make development difficult. This note will try to detail some of these problems.
 When defvar is evaluated, it will create a variable according to its definition. However,
 repeated evaluation will not change the defition in memory under normal circumstances.
 
-It is possible to update the values using src_elisp{eval-defun} or src_elisp{eval-last-sexp).
+It is possible to update the values using src_elisp{eval-defun} or src_elisp{eval-last-sexp}.
 To [[https://emacs.stackexchange.com/questions/2298/how-do-i-force-re-evaluation-of-a-defvar][evaluate an entire buffer like this]], you can use the following elisp:
+
+
+=(message "hello")=
 
 #+begin_src elisp
 (defun eval-dev-buffer ()

@@ -1,0 +1,176 @@
+:PROPERTIES:
+:ID:       f0b0af67-dad8-4ed9-992f-ee360fa4565e
+:END:
+#+title: Calculus in a page
+
+
+There are three fundamental concepts in calculus. That's it! So if you
+know these three concepts, other math concepts that depend upon these concepts
+should be possible to learn. For example, the [[https://en.wikipedia.org/wiki/Z-test][Z-test]] and the [[https://en.wikipedia.org/wiki/Chi-squared_test][Chi-squared]] test
+both depend upon *integration*, one of the three concepts, to work.
+
+
+Calculus is a hard /class/, not a hard /subject/. The class is hard because the fundamental
+concepts are padded with lots of difficult algebra. There is usually lots of memorization of formulas and
+procedures to solve specific equations. Luckily, we don't have to worry about any of that.
+
+
+So, to get right into it, here are the three concepts:
+1. Limits (sometimes taught in pre-calc)
+2. Derivation
+3. Integration
+
+
+* function review
+
+A function is a set of operations that takes input(s) and returns an output. These are an *extremely important* computer
+science concept, but are also present in math.
+
+In math, a function is defined like so:
+
+\begin{equation}
+f(x) = x+4
+\end{equation
+
+This function \(f\) takes 1 input and returns that input plus 4.
+
+In R, the same function can be defined like so:
+
+#+begin_src R
+
+f <- function(x){
+  x+4
+}
+
+f(5) # returns 9
+f(3) # returns 7
+#+end_src
+
+Feel free to give it a try!
+
+* Limits
+
+With functions, there are certain values that can't be plugged in to the function. For example, \(\infty\). In math,
+\(\infty\) is not a number, so \(\infty + 4\) doesn't really mean anything. Instead, to define what happens in this
+case, there is a concept called the *limit*.
+
+So, while we can't do \(f(\infty)\), we /can/ do \[ \lim_{x \rightarrow \infty} f(x) \]. This
+is basically saying, as the values for x get bigger and bigger, what happens to the output?
+In this case, the answer is \[\lim_{x \rightarrow \infty} f(x) = \lim_{x \rightarrow \infty} x + 4 = \infty\]. This should hopefully make sense, \(4 + \infty\) is still \(\infty\).
+
+Here is a 20 minute video on just limits if you want: [[https://www.youtube.com/watch?v=G4LOp6PhBKM][What is a limit in calculus?]]
+
+* Derivation (derivatives)
+The reason we need to know about limits is that derivatives are defined as this: \[L=\lim_{h \to 0}\frac{f(a+h)-f(a)}h\]
+
+Notice the limit notation. \(a\), represents all points in the /domain/ of \(f(x)\). So any valid value for \(x\) can be plugged
+in for \(a\). Luckily, you don't have to memorize this (woohoo!). Instead, I'll describe what this formula means, then I'll
+show a trick to do this formula without any algebra.
+
+So what does this formula give you? Take our equation from before \(f(x) = x+4)\. The plot of this line might look like
+this:
+
+#+begin_src gnuplot :file 20251016091638-calculus_in_a_page/xplus4.png :exports results
+plot x + 4
+#+end_src
+
+#+caption: The plot of f(x) = x+4
+#+name: fig:figure1
+#+RESULTS:
+[[file:20251016091638-calculus_in_a_page/xplus4.png]]
+
+
+The plot of the derivative, however, looks like this:
+
+#+begin_src gnuplot :file 20251016091638-calculus_in_a_page/derivative.png :exports results
+plot 1
+#+end_src
+
+#+caption: The plot of the derivative of f(x) = x+4
+#+name: fig:figure2
+#+RESULTS:
+[[file:20251016091638-calculus_in_a_page/derivative.png]]
+
+
+If you looked carefully, you might have noticed that the line in [[fig:figure2]]
+is equal to the /slope/ of the line in [[fig:figure1]]. This is what the "derivative" of
+a function means. It is just another function (we'll call it \(f'(x)\)) where any value
+that is plugged in will return the slope of the value returned by \(f(x)\).
+
+So if we remember how to calculate slope using \(y=mx+b\), you'll notice that \(m\), the slope, is 1 when \(y=x+4\).
+
+In summary, the derivative is just a way to calculate the slope of any point on a function.
+
+So, how do we calculate the derivative without doing algebra?
+
+If you have a function that looks like this:
+
+\[f(x) = x^2\]
+
+Then the derivative would look like this:
+
+\[f(x) = 2x\]
+
+So, to break this down, the exponent (2) is multiplied by the term (x), then the exponent is subtracted by 1.
+
+In the case of multiple terms, as in a polynomial, this treatment is done for each term.
+
+\[f(x) = x^2 + 2x + 5 \rightarrow 2x + 2 + 0  = f'(x)\]
+
+Notice that the 5 evaluates to 0 because there is no variable (x). This is important, because
+information is lost between a function and its derivative!
+
+That it!
+
+Here is a video from Khan academy with the basic concept (7 minutes): [[https://www.youtube.com/watch?v=N2PpRnFqnqY][Derivative as a concept]]
+
+* Integration (Integrals)
+We're almost done with calculus!
+
+An Integral is just a derivative in reverse. It is really that simple!
+
+But remember, we lost information when doing the derivative, and there isn't a way to get
+that info back. So if the derivative of \(f(x) = x+4\) is \(1\), then when we do the integral,
+we have no way of knowing that the 4 existed. So the integral of \(1\) is \(x + C\). \(C\) is
+just a "constant", or any value that doesn't contain a variable.
+
+Integrals are written like this:
+
+\[ \int f(x) dx \]
+
+
+While integrals are just a reverse derivatives, an integral of a function is equal to the
+area under the line given by the original function. For example, the integral of \(x+4\)
+actually returns the solid area of this graph:
+
+#+begin_src gnuplot :file 20251016091638-calculus_in_a_page/area.png
+set yrange [0:20]
+plot x + 4 with filledcurves x1
+
+#+end_src
+
+#+RESULTS:
+[[file:20251016091638-calculus_in_a_page/area.png]]
+
+If we wanted to calculate the area of the region between 0 and 5, we can use a *definite* integral.
+
+With a definite integral, we ignore \(C\), and plug in a value for x twice, once with the big value (5) and once with the small value(0). These terms are then
+subtracted.
+
+\[\int^5_0 x + 4 dx \rightarrow \frac{1}{2}(5)^2 - \frac{1}{2}(0)^2 \rightarrow  12.5 \]
+
+This gives us the area shown below:
+
+
+#+begin_src gnuplot :file 20251016091638-calculus_in_a_page/area2.png
+
+set yrange [0:20]
+plot x+4, [0:5] x + 4 with filledcurves x1 
+
+#+end_src
+
+#+RESULTS:
+[[file:20251016091638-calculus_in_a_page/area2.png]]
+
+
+* Connections to statistics
