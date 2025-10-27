@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       f0b0af67-dad8-4ed9-992f-ee360fa4565e
 :END:
-#+title: Calculus in a page
-
+#+title: Calculus in a few pages
+#+TYPST: #set image(width: 60%)
 
 There are three fundamental concepts in calculus. That's it! So if you
 know these three concepts, other math concepts that depend upon these concepts
@@ -30,13 +30,13 @@ In math, a function is defined like so:
 
 \begin{equation}
 f(x) = x+4
-\end{equation
+\end{equation}
 
 This function \(f\) takes 1 input and returns that input plus 4.
 
 In R, the same function can be defined like so:
 
-#+begin_src R
+#+begin_src R 
 
 f <- function(x){
   x+4
@@ -52,14 +52,15 @@ Feel free to give it a try!
 
 With functions, there are certain values that can't be plugged in to the function. For example, \(\infty\). In math,
 \(\infty\) is not a number, so \(\infty + 4\) doesn't really mean anything. Instead, to define what happens in this
-case, there is a concept called the *limit*.
+case, there is a concept called the *limit*. In essence, it means to evaluate a function as you get infinitely close to
+a chosen value.
 
 So, while we can't do \(f(\infty)\), we /can/ do \[ \lim_{x \rightarrow \infty} f(x) \]. This
 is basically saying, as the values for x get bigger and bigger, what happens to the output?
 In this case, the answer is \[\lim_{x \rightarrow \infty} f(x) = \lim_{x \rightarrow \infty} x + 4 = \infty\]. This should hopefully make sense, \(4 + \infty\) is still \(\infty\).
 
 Here is a 20 minute video on just limits if you want: [[https://www.youtube.com/watch?v=G4LOp6PhBKM][What is a limit in calculus?]]
-
+#+typst: #pagebreak()
 * Derivation (derivatives)
 The reason we need to know about limits is that derivatives are defined as this: \[L=\lim_{h \to 0}\frac{f(a+h)-f(a)}h\]
 
@@ -71,6 +72,7 @@ So what does this formula give you? Take our equation from before \(f(x) = x+4)\
 this:
 
 #+begin_src gnuplot :file 20251016091638-calculus_in_a_page/xplus4.png :exports results
+set yrange [0:20]
 plot x + 4
 #+end_src
 
@@ -83,6 +85,7 @@ plot x + 4
 The plot of the derivative, however, looks like this:
 
 #+begin_src gnuplot :file 20251016091638-calculus_in_a_page/derivative.png :exports results
+set yrange [0:20]
 plot 1
 #+end_src
 
@@ -99,7 +102,7 @@ that is plugged in will return the slope of the value returned by \(f(x)\).
 
 So if we remember how to calculate slope using \(y=mx+b\), you'll notice that \(m\), the slope, is 1 when \(y=x+4\).
 
-In summary, the derivative is just a way to calculate the slope of any point on a function.
+In summary, the derivative is just a way to calculate the slope of any point on a function line.
 
 So, how do we calculate the derivative without doing algebra?
 
@@ -173,4 +176,119 @@ plot x+4, [0:5] x + 4 with filledcurves x1
 [[file:20251016091638-calculus_in_a_page/area2.png]]
 
 
+If you didn't catch on, the trick to doing an integral without any algebra is to just do the derivative trick in reverse. Add one to the exponent and divide the term by that exponent.
+
+
+In summary, integrals are reverse derivatives and can be used to find the area under the line given by a function.
+
+
 * Connections to statistics
+
+So how does this relate to statistics? Well, random data usually fits some sort of distribution. For example, human heights usually fit into
+what is called the "normal" distribution. What this means is that if you were to take all the humans in the world and plot their heights on
+a bar chart, it would look something like this:
+
+#+begin_src gnuplot :file 20251016091638-calculus_in_a_page/normal.png
+sigma = 2
+mean = 0
+
+set yrange [0:1]
+f(x) = (1/(sqrt(2 * pi * (sigma**2)))) * exp(-((x - mean)**2)/(2 * (sigma**2)))
+
+plot f(x) with filledcurves x1
+
+
+#+end_src
+
+#+RESULTS:
+[[file:20251016091638-calculus_in_a_page/normal.png]]
+
+
+The equation of the line (not the filled in area) for this distribution looks like this:
+
+\[ f(x)={\frac {1}{\sqrt {2\pi \sigma ^{2}}}}e^{-{\frac {(x-\mu )^{2}}{2\sigma ^{2}}}}\]
+
+This equation is big and scary, but notice how there are now two extra symbols \(\mu\), the mean
+and \(\sigma\), the standard deviation. R has built in functions for both of these: =mean()= and
+=sd()=.
+
+Here is an interactive normal distribution so you can see how these values change how the normal distribution
+looks: [[https://istats.shinyapps.io/NormalDist/][Interactive Normal Distribution]]. Fyi, it is written in R!
+
+
+Say you wanted to calculate the probability that someone has a height less than 6 feet.
+
+The way you would normally do this is through a Z table. So say that the average height is 5 feet and
+the standard deviation is 1 foot. The Z score is given by this formula:
+
+\[Z = \frac{X-\mu}{\sigma} = \frac{6 - 5}{1} = 1 \]
+
+You would take this Z value and look up the value in a /cumulative Z table/. This would then
+give you your probability. Here is how you might do it in R
+
+#+begin_src R
+
+mean <- 5
+x <- 6
+standard_deviation <- 1
+
+Z <- (x - mean)/standard_deviation
+
+pnorm(Z) # cumulative Z table lookup
+#+end_src
+
+#+RESULTS:
+: 0.841344746068543
+
+
+This gives us a probability of 84 percent. P values are often calculated in a similar way. Instead
+of an observation like "the probability of a height less than 6 feet", it is the probability of a hypothesis
+being true. So something like "all humans have a height less than 6 feet" has a probability of 84% of being true.
+This is a P value of \((1-0.84) = 0.16\), which is pretty bad. medicine usually uses a p value cutoff of 0.01,
+which is a 99% probability that their hypothesis is true.
+
+But how does this relate to calculus? Well, something that always frustrated me was understanding
+what the Z table was actually giving me. It turns out, that the Z table is actually an *integration* of
+the equation for a normal distribution! Specifically, a cumulative Z table, like the one we used, is a definite
+integral from \(-\infty\) to the Z value. So when you look up the value 1, what you're actually doing is finding
+the area of the solid part of this plot:
+
+#+begin_src gnuplot :file 20251016091638-calculus_in_a_page/ztable.png :export results
+sigma = 1
+mean = 0
+
+f(x) = (1/(sqrt(2 * pi * (sigma**2)))) * exp(-((x - mean)**2)/(2 * (sigma**2)))
+set key off
+plot f(x), [-10:1] f(x) with filledcurves x1
+#+end_src
+
+#+RESULTS:
+[[file:20251016091638-calculus_in_a_page/ztable.png]]
+
+
+It is important to note that this only works if the data actually fits the normal/Gaussian distribution.
+So you aren't just gambling that your hypothesis is true, but also that your data fits your chosen distribution.
+
+You might be wondering, if the Z table is just an integration, why do we need a table? can't we just do the integral
+and use that formula? The answer is that it is actually impossible to
+symbolically integrate the formula for the normal distribution. So no, you couldn't even do the algebra even if you wanted to!
+
+Instead, the computer estimates the answer through
+a technique called [[https://en.wikipedia.org/wiki/Numerical_integration][Numerical Integration]]. The Z table is just a table of pre-computed estimations. Statistics
+is full of these integrals. So it isn't even useful to learn the algebraic techniques, because
+the computer doesn't use them anyway.
+
+
+
+* The Physics connection
+
+Calculus is also deeply connected to physics. Velocity, for example, is actually the derivative of position.
+Acceleration is the derivative of velocity.
+
+So, if we assume a constant acceleration due to gravity, we can actually get the equation for position using integrals!
+
+- acceleration = \(f(x) = 9.8\)
+- velocity = \(f(x) = 9.8x + C = 9.8x + 1\): C is our initial velocity (we'll set it to 1)
+- position = \(f(x) = 4.9x^2 + 1x + C\): C is our initial position
+
+Pretty neat!
