@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       26bfcdc0-62b2-43bc-80f9-b20d8509cdd1
+:END:
+#+title: mining-sensor-data
+
+Presented by Rhonda Szczesniak
+
+* Pilot study in cystic fibrosis involving sensor data
+- CTFR gene is lost in cystic fibrosis patients
+- A heterogeneous disease, CF has high inter-subject variability
+- To better predict patient outcomes, functional data analysis uses
+  past data to predict future data
+
+** Road way exposure contributed to lung function decline
+- Zip code was shown to be an important variable associated with FEV_1
+  (biomarker associated with CF)
+  

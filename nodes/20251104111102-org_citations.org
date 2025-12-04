@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       01890e7c-8c21-4091-a004-4de84ae15868
+:END:
+#+title: org-citations
+
+
+Org mode uses the package org-cite to handle citations via a set of
+functions called a "processor", see
+=org-cite-register-processor=. There is little documentation about
+this online, but the builtin help is ok.
+
+I want to write a "follow" processor to open urls/pdfs. I tried
+[[https://github.com/jkitchin/org-ref][org-ref]], but it seems to be too tightly integrated with bibtex.
+
+Basically, I'm just going to have an open [[https://github.com/abo-abo/hydra][hydra]] that has a few options
+(i.e. pdf/url/etc)
+

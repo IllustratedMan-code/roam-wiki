@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       3703db88-be8b-4b3a-bee4-0941dc39c7b9
+:END:
+#+title: immunology-terms
+
+
+* Null Allele
+- Non-functional allele
+
+* IgX/g/h/e
+- Immunoglobulin X
+
+* Ectopic Expression
+- Abnormal expression (ecto = out of, topic = place)
+
+* Cytokine
+- Loose definition encompassing chemicals (small proteins) that are
+  used to communicate
+  with other cells (most typically by immune cells).
+- [[https://en.wikipedia.org/wiki/Cytokine][Wikipedia]]

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       0c2390eb-d079-47d9-89da-54d8fd0262d0
+:ROAM_ALIASES: QTLs
+:END:
+#+title: Quantitative Trait Loci
+
+A region in the genome where variation of said region effects some
+trait that can be quantified.
+
+For example, a "binding" QTL might be a
+region where binding of a protein (measured with ChIP-seq) is altered
+when variation in that region occurs.
+
+Identifying QTLs requires multiple samples with the same quantitative measurements
+(i.e. ChIP-seq) that are genetically similar, but not identical. 
+
+
+QTLs are a standard in [[id:d1d9fda3-fb43-4888-a179-7f24ad0554eb][bioinformatics]] analysis.
