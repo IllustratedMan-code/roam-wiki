@@ -1,0 +1,50 @@
+#+title: 2026-01-14
+
+* Create tasks
+:LOGBOOK:
+CLOCK: [2026-01-14 Wed 08:33]--[2026-01-14 Wed 08:58] =>  0:25
+:END:
+
+* Read the EBV paper
+:LOGBOOK:
+CLOCK: [2026-01-14 Wed 09:27]--[2026-01-14 Wed 09:52] =>  0:25
+:END:
+
+
+* TODO Trinetx for assignment
+
+
+* DONE Get textbooks for Computational systems biology
+CLOSED: [2026-01-14 Wed 14:26]
+:LOGBOOK:
+CLOCK: [2026-01-14 Wed 13:00]--[2026-01-14 Wed 13:15] =>  0:15
+CLOCK: [2026-01-14 Wed 11:17]--[2026-01-14 Wed 11:42] =>  0:25
+:END:
+- Read some too!
+
+
+* Wait for email from Matt then do that stuff
+
+
+* TODO Fix the metadata to include controls for HPV
+:LOGBOOK:
+CLOCK: [2026-01-14 Wed 12:54]--[2026-01-14 Wed 13:00] =>  0:06
+:END:
+
+
+* DONE Git commit the PU.1 nextflow pipeline
+CLOSED: [2026-01-14 Wed 12:52]
+:LOGBOOK:
+CLOCK: [2026-01-14 Wed 12:50]--[2026-01-14 Wed 12:52] =>  0:02
+:END:
+
+
+* TODO Enumber + path for Lee
+- Check methods are up to date (pre-analysis)
+- redo metadata so it has only the good datasets, no glass lab, no carr
+  
+
+
+
+
+

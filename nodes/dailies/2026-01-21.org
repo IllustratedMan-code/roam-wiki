@@ -1,0 +1,8 @@
+#+title: 2026-01-21
+
+
+
+* Add supplemental table 11 (figure 5 results)
+:LOGBOOK:
+CLOCK: [2026-01-21 Wed 08:54]--[2026-01-21 Wed 09:19] =>  0:25
+:END:

@@ -1,0 +1,14 @@
+#+title: 2026-01-15
+
+* DONE Read more dynamics textbook
+CLOSED: [2026-01-15 Thu 10:36]
+:LOGBOOK:
+CLOCK: [2026-01-15 Thu 09:44]--[2026-01-15 Thu 10:09] =>  0:25
+:END:
+I understand vector fields now.
+
+* TODO Read and do the stuff in Matt's emails
+
+* TODO Fix metadata to have controls for HPV
+
+* TODO Trinetx

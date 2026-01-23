@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       849121cb-9ed2-4cfe-b0b9-e6c5b9d75ceb
+:END:
+#+title: Converting chromosome positions to rsid
+#+filetags: TODO
+
+
+You can use the Ensembl REST api [[https://rest.ensembl.org/][Link]], with [[https://rest.ensembl.org/documentation/info/overlap_region][this endpoint]].

@@ -1,0 +1,13 @@
+#+title: 2025-12-30
+
+
+* Figure 4 regen
+:LOGBOOK:
+CLOCK: [2025-12-30 Tue 10:14]
+CLOCK: [2025-12-30 Tue 09:43]--[2025-12-30 Tue 10:08] =>  0:25
+CLOCK: [2025-12-30 Tue 09:27]--[2025-12-30 Tue 09:37] =>  0:10
+:END:
+I need to compile the reli document into a single file using the
+scripts I wrote.
+
+I need to wait until the compile script is done before I can do anything.

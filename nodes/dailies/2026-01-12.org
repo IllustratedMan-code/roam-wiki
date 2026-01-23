@@ -1,0 +1,39 @@
+#+title: 2026-01-12
+
+
+
+* I need to figure out what to do for Matt and Xiaoting
+:LOGBOOK:
+CLOCK: [2026-01-12 Mon 09:07]--[2026-01-12 Mon 09:32] =>  0:25
+:END:
+- Composite motif analysis
+- De novo motif enrichment
+- These are both homer results paths
+
+
+* CITI trainings
+:LOGBOOK:
+CLOCK: [2026-01-12 Mon 09:53]--[2026-01-12 Mon 10:18] =>  0:25
+:END:
+** Belmont report
+- 3 principles
+  - Respect for persons: people are autonomous agents generally, but
+    sometimes cannot self-determine, in which case, they require
+    protection
+  - Beneficience: do not harm, maximize possible benefits and minimize
+    possible harms
+  - Justice: Benefits should not be denied to those who need them, treatments
+    should not be tested on persons who will not be in the beneficiary group.
+** Research misconduct
+- Research misconduct is defined as fabrication, falsification, or
+  plagiarism
+- steps in response: inquiry, investigation, adjudication
+
+** Records based research
+- understand specific risks, minimize risks, obtain approvals
+- Risks: privacy, confidentiality
+- Certificate of confidentiality (Coc) prevents disclosure of research
+  data through legal proceedings
+
+  
+  

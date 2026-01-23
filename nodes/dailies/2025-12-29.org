@@ -1,0 +1,43 @@
+#+title: 2025-12-29
+
+
+
+* DONE test pomodoro
+CLOSED: [2025-12-29 Mon 09:38]
+I used this time to create a functioning pomodoro timer inside waybar
+and emacs using org-pomodoro and a custom waybar module.
+:LOGBOOK:
+CLOCK: [2025-12-29 Mon 09:34]--[2025-12-29 Mon 09:38] =>  0:04
+:END:
+
+* TODO task creation
+:LOGBOOK:
+CLOCK: [2025-12-29 Mon 10:24]--[2025-12-29 Mon 10:32] =>  0:08
+:END:
+This pomodoro will be used to create the rest of the pomodoros for the day
+
+
+* Close read the manuscript (2 pomodoros)
+- close read each sentence, but don't mark anything unless it seems crazy
+
+
+* HPV project
+- Examine SQl database, try to figure out query for project metadata
+  sheet/json
+** Read up on SeqBank via the wiki
+:LOGBOOK:
+CLOCK: [2025-12-29 Mon 10:32]--[2025-12-29 Mon 10:49] =>  0:17
+:END:
+Projects can be listed like so:
+#+begin_src bash
+seqbank projects --verbose --order-by=champion --pp | less
+#+end_src
+
+* Check on job at the end of the day.
+:LOGBOOK:
+CLOCK: [2025-12-29 Mon 12:02]--[2025-12-29 Mon 12:04] =>  0:02
+:END:
+
+- see if it is stuck in job submission purgatory
+- I am manually babysitting the jobs
+
