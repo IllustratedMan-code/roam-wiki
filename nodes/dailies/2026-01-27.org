@@ -1,0 +1,12 @@
+#+title: 2026-01-27
+
+
+
+* Build SQL query
+:LOGBOOK:
+CLOCK: [2026-01-27 Tue 10:55]
+:END:
+
+* Get multiqc reports
+
+* Export to table

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       93c6fc11-d0d8-4fa8-a08d-b8c9b440038f
+:END:
+#+title: ORCID
+
+
+ORCID is a unique identifier system for scientists, mine is 
+https://orcid.org/0009-0007-9742-5599

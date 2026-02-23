@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       84da1318-6369-4fad-b9b3-6ea0227c1deb
+:END:
+#+title: Differential Equations
+
+
+Differential Equations can be used to model the change of values based
+on equations that model their derivatives, that is, their rate of
+change.
+
+
+
+
+simple chemical reactions can be modeled like so:
+
+\[X + Y \mathop{\leftrightarrows}_{k_-}^{k_+} Z \]
+
+$k_-$ represents the rate of dissociation, whereas $k_+$ represents
+the rate of reaction.

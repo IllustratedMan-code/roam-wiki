@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2f0751f3-83cd-4aef-996f-bb7a3a2db91f
+:END:
+#+title: GIC
+
+[[https:genomicinformationcommons.org
+][Genomic Information Commons]]
+
+
+Need to request access

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       be9a735b-0cb6-4976-9d33-a81321a1d18c
+:END:
+#+title: video-editing
+
+
+* Tools
+- [[id:2cc66808-b489-4c72-83fd-b4fb5cd3eccc][vhs]] is a good tool for recording terminal applications
+- [[https://developer.chrome.com/blog/mediarecorder][Mediarecorder
+  api]] is good for recording webpages (slidev presentations?)

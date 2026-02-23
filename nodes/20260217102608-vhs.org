@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2cc66808-b489-4c72-83fd-b4fb5cd3eccc
+:ROAM_REFS: https://github.com/charmbracelet/vhs
+:END:
+#+title: vhs
+
+Vhs is a program that allows you to create animations for terminal commands
+
+

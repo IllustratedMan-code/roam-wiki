@@ -1,0 +1,26 @@
+#+title: 2026-02-06
+
+
+* RNA-seq PCA
+
+Quant.sf is in RNA seq directories/
+
+salmon.merged.gene​_counts​_length​_scaled.tsv
+
+
+vst matrix
+
+deseq2
+
+
+* ATAC
+
+Log2 +1 of normalized counts from diffbind
+
+to deseq2
+
+then vst then PCA
+
+
+Or bedtools instead of diffbind for counts (bedtools coverage on
+deduplicated bam file).
