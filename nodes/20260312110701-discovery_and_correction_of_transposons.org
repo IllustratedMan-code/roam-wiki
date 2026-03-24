@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       50f1c979-0ace-4532-b381-e9dad369ad18
+:END:
+#+title: Discovery and correction of transposons
+
+
+Seminar by E. Alice Lee.
+
+
+Transposable elements cause hemophilia
+
+
+L1 (line one transposon), the only active transposon in human genome
+that is protein coding, and facilitates the transposition of other
+transposable elements.
+
+
+Hundreds of L1 elements. TPRT mechanism facilitates insertion of
+transposon copies. Dna methyltranferases and histone
+methyltransferases form the "surveilance network" that suppresses
+transposon activity.
+
+"Tea" is an analysis meant to identify transposable elements (Solovyov
+et al. Nature communication).
+
+
+Transposon expression does not always align with insertions. L1
+expression causes DNA damage including strand breaks.
+
+TP53 introns are full of Transposable elements.
+
+
+Alternative transciption start, conversion to exon and change in
+transcription end.
+
+Adipose tissue shows highest TE activity in older patients.
+Exonization is the most dominiant form of TE altered splicing (TEAS).
+
+
+DNA hypomethylation associated with TEAS events. Transposon fusions
+are enriched in known cancer genes. Transposon altered peptides might
+be a source of antigen for t cells to identify cancer cells with.
+
+
+#+begin_quote
+Is there any viral transposon contributions?
+#+end_quote
+
+
+Gene therapy for transposon insertion caused Mendelian disorders.
+
+
+Intronic Alu (a TE) insertion cause Mendelian disorders. Alu causes
+Exon skipping. ASO masks this splicing behavior.

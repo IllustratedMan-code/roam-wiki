@@ -1,0 +1,17 @@
+#+title: 2026-03-02
+
+
+
+
+* Find all folders with differential-expression output
+- RNA-seq only
+
+
+
+
+* Create presentation with updated figures for PCA
+:LOGBOOK:
+CLOCK: [2026-03-02 Mon 09:56]--[2026-03-02 Mon 10:21] =>  0:25
+:END:
+Used typst to create a pdf, then went online and used the adobe pdf to
+ppt conversion

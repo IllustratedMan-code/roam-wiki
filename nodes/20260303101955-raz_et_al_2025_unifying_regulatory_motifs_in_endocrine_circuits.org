@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       89e423b1-48f1-41d4-923f-0588455db8d7
+:ROAM_ALIASES: "Raz et al. 2025"
+:ROAM_REFS: https://www.nature.com/articles/s41467-025-65924-4
+:END:
+#+title: Unifying regulatory motifs in endocrine circuits 
+
+
+

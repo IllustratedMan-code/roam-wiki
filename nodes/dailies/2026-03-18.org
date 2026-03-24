@@ -1,0 +1,21 @@
+#+title: 2026-03-18
+
+- All pass
+- Unsure: TreX 16 E2 REp 1
+- Unsure: Fpl-In-293 18 E6 Rep 3
+
+
+What is the impact of the strain on the VTR?
+
+
+
+Upset plot of DEGs
+
+
+
+* MPRA
+
+- ChiP peaks intersecting them with SNP variants, variants. Instead of
+  looking at variants in a disease, we're interested in variants
+  associated with peaks. How many variants interesect vtr peaks. 15000
+  variants is a max size of library.

@@ -1,0 +1,22 @@
+#+title: 2026-03-19
+
+
+* Do some Deseq2 work and put the figures in the presentation
+:LOGBOOK:
+CLOCK: [2026-03-19 Thu 09:31]--[2026-03-19 Thu 09:56] =>  0:25
+CLOCK: [2026-03-19 Thu 08:49]--[2026-03-19 Thu 09:14] =>  0:25
+:END:
+- [X] separate cell types in pipeline
+- [ ] write comparisons to output  
+
+
+* Start next pipeline runs for ATAC/ChIP
+:LOGBOOK:
+CLOCK: [2026-03-19 Thu 10:27]--[2026-03-19 Thu 10:52] =>  0:25
+:END:
+
+* Do some work on the "diagnostic entropy project"
+:LOGBOOK:
+CLOCK: [2026-03-19 Thu 12:28]
+:END:
+- Establish a git repo, but don't push anywhere

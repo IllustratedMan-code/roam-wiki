@@ -1,0 +1,12 @@
+#+title: 2026-03-03
+
+
+* Finish differential analysis stuff
+Need to find out if my script is in error when it finds the paths
+
+
+* Read paper for presentation on friday
+- As long as it takes
+
+
+* Make presentation
