@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       fb04fbe2-953d-4a20-8b20-86e9184cb569
+:END:
+#+title: topisomerase
+#+filetags: TODO
+
+
+Cuts DNA, regulating supercoiling of DNA. DNA is cut at supercoil, and
+the DNA unwravels until it hits a low enough free energy (at which
+point it doesn't rotate). At this point, DNA repair mechanisms are
+triggered, connecting the DNA backtogether.

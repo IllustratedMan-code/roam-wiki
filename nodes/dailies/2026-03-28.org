@@ -1,0 +1,13 @@
+#+title: 2026-03-28
+
+
+
+* Look at Lee's code for how to do an each by each comparison with the deseq
+- begin pipeline integration
+
+
+* Look at new run and see if it is pass
+- set to "pass" in seqbank if so
+- =/data/weirauchlab/project/vtr/HPV_HPV11/Flp-In-293/integrative_analysis/ChIP-seq/run2/nf-encode-chip=
+
+* Make QC sheet from the multiqc sheets

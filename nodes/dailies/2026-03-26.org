@@ -1,0 +1,27 @@
+#+title: 2026-03-26
+
+* Clean inbox
+:LOGBOOK:
+CLOCK: [2026-03-26 Thu 08:47]--[2026-03-26 Thu 08:58] =>  0:11
+:END:
+
+
+* Figure out QC sheet stuff
+:LOGBOOK:
+CLOCK: [2026-03-26 Thu 08:58]--[2026-03-26 Thu 09:12] =>  0:14
+:END:
+
+
+* Do extra ChIP samples
+
+** HPV11-E6
+E008876
+E008877
+E008878
+
+replaces:
+- E007126
+- E007127
+- E007128
+  
+
