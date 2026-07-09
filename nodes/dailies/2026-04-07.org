@@ -1,0 +1,6 @@
+#+title: 2026-04-07
+
+
+* Piphany
+- Need to rewrite dataframe to take derivations instead of
+  DerivationHashes, hopefully this is possible

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       460e0448-c227-410f-bd88-72cfc3d6ffb6
+:ROAM_REFS: https://codeberg.org/
+:END:
+#+title: codeburg
+
+Codeburg is a git hosting service similar to github that is used to
+host primarily open source software
+
+
+** Mirroring to codeburg
+- [[https://codeberg.org/Recommendations/Mirror_to_Codeberg#github-mirror][First
+  party tutorial]]
+
+If this is not a community repo, use this:
+#+begin_src bash
+git remote set-url --add --push origin https://codeberg.org/user/repo.git
+#+end_src
+which will mirror all commits to the local repo to the remote repos. 

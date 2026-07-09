@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       2543c8a9-7250-48b1-a513-649d0cce102c
+:END:
+#+title: nvidia internship Cards
+
+
+* 3 steps of model training :drill:
+SCHEDULED: <2026-06-29 Mon>
+:PROPERTIES:
+:ID:       fdd30a76-8d5b-4327-96d7-363e46b59048
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [Y-06-25 Thu 11:%]
+:END:
+
+What are the three steps to model training?
+
+** Answer
+
+- Forward pass (inputs -> outputs)
+- Backward pass (compute gradient)
+- Optimization using gradients to update parameters
+
+
+* Batch size :drill:
+
+What is the batch size in ML? Why is it important?
+
+[[https://www.youtube.com/watch?v=ad5Wg-abmfk][What are neural Network Batch sizes?]]
+
+The number of training samples processed in one iteration. Small batch
+sizes create harsher noisier gradients which increase convergence
+speed, while larger batch sizes create smoother gradients, resulting
+in a more precise final answer.
+
+Smaller batches are also more memory efficient, but require more
+optimizer steps leading to longer training times.

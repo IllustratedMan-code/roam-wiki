@@ -18,3 +18,21 @@
   used to communicate
   with other cells (most typically by immune cells).
 - [[https://en.wikipedia.org/wiki/Cytokine][Wikipedia]]
+
+
+* Macrophages
+
+** Question                                                            :drill:
+- What is the primary function of a macrophage in the innate immune
+  system?
+*** Answer
+- Phagocytosis, or the eating of invading microorganisms
+- Also acts as general scavenger, cleaning up debris and dead cells
+
+
+** Question :drill:
+
+How are macrophages part of the adaptive immune system
+
+*** Answer
+- adaptive immune system targets invading organisms for removal by macrophages

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       8bbf9262-09d8-441c-a9c6-5cbeace37049
+:END:
+#+title: Jonathan-prichard-seminar
+
+
+
+GWAS data can be used to identify a variety of phenotypes (are you a morning
+person?)
+
+Perturb-seq:
+- allows identification of downstream effects by altering sequence,
+  then doing differential expression
+
+* Questions
+How are problematic are cycles within the grn on the results of
+Perturb seq?

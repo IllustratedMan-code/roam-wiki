@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       42b8b8ec-6bc7-4262-ac4a-fea28e163582
+:END:
+#+title: claude-science
+
+[[https://claude.com/product/claude-science][claude science]] is a tool for running scientific scripts with AI
+
+- [[https://github.com/GHawk1124/claude-science-nix/tree/main][this can be used to run claude-science on nix]]

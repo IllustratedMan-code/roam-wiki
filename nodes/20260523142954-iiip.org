@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ad76a365-1f38-4396-9643-488f6471ad4d
+:END:
+#+title: IIIP
+
+
+Need to fix the printer by taking it apart and fixing the bed wire:
+
+https://www.pingle.org/2017/10/08/rewiring-the-heated-bed-on-a-monoprice-select-mini-v2-3d-printer

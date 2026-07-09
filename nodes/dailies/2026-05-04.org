@@ -1,0 +1,23 @@
+#+title: 2026-05-04
+
+
+The question is, what do I want to do about the executor backends?
+
+
+There are several decisions I need to make.
+
+- Are absolute paths going to be used rather than symlinks in scripts?
+  - yes
+  - users can just use =ln= to establish symlinks if desired
+
+- Should the derivation have access to its path?
+  - This makes the implementation of the previous decision much
+    easier, but is not that easy to implement in itself
+    - Need to give the derivation access to the =workdir= config
+      variable to make this possible
+  - I think yes
+
+
+- Should the derivation executor be separate from the derivation?
+  - the setup of the derivation could be self-contained, though not
+    all derivations need to be setup (e.g. files)

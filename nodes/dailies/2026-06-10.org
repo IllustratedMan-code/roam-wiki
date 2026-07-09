@@ -1,0 +1,8 @@
+#+title: 2026-06-10
+
+
+* Website
+
+- [ ] Remove pointless stuff from index.html
+- [ ] Add button to go to downloads page
+- [ ] Add more columns to data table

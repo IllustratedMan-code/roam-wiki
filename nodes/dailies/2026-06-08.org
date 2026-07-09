@@ -1,0 +1,13 @@
+#+title: 2026-06-08
+
+
+
+* Website [0/3]
+- [ ] metadata (from pipeline???)
+- [ ] Download all button
+- [ ] Link from main page
+- Need to hook into the data tables api
+
+* Piphany
+- Get working (skeleton of work directory)
+- Think about error handling

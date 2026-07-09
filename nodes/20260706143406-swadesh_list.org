@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       46af0650-9087-4050-907f-89b25fc86201
+:END:
+#+title: swadesh list
+
+https://en.wikipedia.org/wiki/Swadesh_list

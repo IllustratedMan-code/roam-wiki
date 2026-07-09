@@ -1,0 +1,23 @@
+#+title: 2026-05-05
+
+
+* DONE Chris King stuff
+CLOSED: [2026-05-05 Tue 13:41]
+:LOGBOOK:
+CLOCK: [2026-05-05 Tue 12:25]
+:END:
+- Today I need to get the stuff for Cris king
+
+* Symposium details
+- Comb through emails for what to do for symposium
+- Maybe ask what this entails
+
+* Emails
+- [X] Ask Matt what he wants for the presentation on the 22nd
+
+
+* Website stuff
+- Start website stuff (reply to Kevin's emails)
+
+* PU.1
+- Start Bed subtract, read through comments again

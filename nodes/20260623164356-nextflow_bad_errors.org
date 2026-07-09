@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       99017fa4-69f5-46eb-9ab3-4e0e80e552e5
+:END:
+#+title: nextflow_bad_errors
+
+
+#+begin_src shell
+
+WARN: WORKFLOW OUTPUT DEFINITION IS A PREVIEW FEATURE - SYNTAX AND FUNCTIONALITY CAN CHANGE IN FUTURE RELEASES
+[-        ] make_results_2              -
+[-        ] supplemental_mario          -
+[-        ] make_results_2_supplemental -
+ERROR ~ Cannot invoke "Object.getClass()" because "value" is null
+
+ -- Check '.nextflow.log' file for details
+[af/26dfdf] Cached process > make_results_2
+
+
+#+end_src

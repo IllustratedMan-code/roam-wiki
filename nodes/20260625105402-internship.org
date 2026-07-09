@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       3b3f5e28-220e-4292-935e-f0bc2bbf980c
+:END:
+#+title: nvidia internship
+
+
+
+* Resources
+- [[https://huggingface.co/spaces/nanotron/ultrascale-playbook?section=high-level_overview][Ultra-Scale
+  Playbook]]
+- [[https://huggingface.co/spaces/HuggingFaceFW/finephrase][Synthetic
+  Data Playbook]]
+- [[https://pytorch.org/blog/a-primer-on-llm-post-training/][Primer on
+  LLM Post-Training]]
+- [[https://www.youtube.com/@andrejkarpathy][Andrej Karpathy]]
+- [[id:2543c8a9-7250-48b1-a513-649d0cce102c][nvidia internship Cards]]
+
+* Datasets
+- [[https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1][FineWeb blog post]]
+
+* Examples
+- [[https://github.com/huggingface/picotron][picotron]]
+
+
+* Terms
+[[id:2543c8a9-7250-48b1-a513-649d0cce102c][nvidia internship Cards]]
+
+- data parallelism
+- tensor parallelism
+- pipeline parallelism
+- Context parallelism
+- ZeRO
+- Kernel fusion
+- Batch size

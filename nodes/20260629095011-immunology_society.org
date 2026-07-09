@@ -1,0 +1,65 @@
+:PROPERTIES:
+:ID:       4ae7a8c6-dc59-4d94-a184-62ac3cbfd9fc
+:END:
+#+title: immunology-society
+
+
+This is just a silly metaphor I came up with to explain the immune
+system to people.
+
+Imagine that the body is a civilization of people. There are many
+different types of people with different jobs. There are bureaucrats,
+structural engineers, cleanup crews, and those responsible for keeping
+order. Imagine this society is constantly beset by zombies, aliens,
+and other attackers. This society does not have any time for niceties
+like respect for life. Only the continuation of the civilization is
+important. Each member of this society desires to live, but is willing
+to sacrifice itself for the greater good.
+
+The immune system is equivalent to the police force, the law-keepers of
+the land. Each member of this force is judge, jury, and
+executioner. Even among this crew of dangerous individuals, to mount
+any sort of resistance against the constant, changing threats, the
+force must be coordinated.
+
+The innate immune system can be thought of as the boots on the ground,
+normal police officer that responds to everyday threats and
+disputes. Macrophages act as cleanup crew and death squad, eating
+everything that may pose a threat and sounding alarms for the other
+members of the team.
+
+The adaptive immune system is more like a detective agency. There are
+many detectives, each with their own specialty. Some are really good
+at identifying zombies, others certain species of alien, and so
+on. The community of detectives is so large that there is always at
+least a single individual who knows how to react to any threat you may
+face. This diversity is great for adaptability, but immune responses
+take time. Each detective can only hold one "wanted poster" at a time,
+and for pathogens that have not been seen by the body, there may only
+be a few detectives that have the required wanted poster.
+
+For example, imagine if there was a type of zombie that only had one
+defining feature that may seem innocuous. Maybe these zombies acted
+normal most of the time, but grew freckles on their knees. Most people
+would not think about this, but a few detectives know that these
+freckles actually prove that whoever has them drinks the blood of
+children in the night. When one of these detectives notices the
+problem, they will work hard to distribute their wanted posters and
+train other detectives to identify the freckles. This takes time, as
+there are billions of detectives, and many more members of the general
+cleanup crew. After this infection, there will be more detectives that
+know how to identify the freckles, enough that the response takes much
+less time. Some of the older grizzled detectives will stick around a
+long time to make sure that the knee-freckle plague doesn't come back.
+
+B cells and T cells are these detectives in the immune system. When
+they identify cells infected with viruses, they proliferate, causing
+that specific antigen receptor ("wanted poster") to be more common
+among the B cell and T cell population. Some of these cells are very
+long lived and act as memory cells that cause any response to
+reinfection with a specific pathogen to go much faster the next time.
+
+
+Average B cell is 10 μm, average male is 175 cm (in U.S.). 175 cm is
+$1.75 * 10^6 \mu{}m$  
+

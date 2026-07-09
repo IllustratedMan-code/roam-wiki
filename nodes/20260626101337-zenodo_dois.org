@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       4c6df42f-1674-4e29-bfa4-0bb4f2cacd80
+:ROAM_REFS: https://zenodo.org/
+:END:
+#+title: zenodo-dois
+
+Zenodo is a service that allows you to create stable, citable releases
+for source code (a DOI).
+
+
+There needs to be a git tag + github release
+
+There is a "get the badge button" for embedding into the readme after
+creating the DOI
