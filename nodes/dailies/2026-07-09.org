@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       42cf859e-e0b2-423e-be9a-3a2ab3a43f91
+:END:
+#+title: 2026-07-09
+
+
+Geo links can be gotten from supplementary table 1
+
+reviewer wants (peaks calls, allele-specific binding events, etc). Do
+we have the allele-specific binding events (Mario?) in the supplement
+somewhere? Can't remember.
+
+
+Not sure we need to mention the website twice.
+
+
+Take review data and do pairwise correlation between PU.1 and Molly's
+list of TFs.

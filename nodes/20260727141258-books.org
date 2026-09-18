@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       262abde3-63fe-4467-bcc5-c46d17cec7b8
+:END:
+#+title: books to read
+
+https://en.wikipedia.org/wiki/Master_and_Commander
+https://en.wikipedia.org/wiki/Till_We_Have_Faces
+https://archive.org/details/warinheaven0000char_v3f1/page/n5/mode/2up
+https://en.wikipedia.org/wiki/A_Canticle_for_Leibowitz

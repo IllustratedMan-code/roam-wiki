@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       319dd0b0-6280-4225-9338-0b1b307635d9
+:END:
+#+title: 2026-09-08
+
+For the next week I need to concentrate on making each figure have
+output tables and output them.
