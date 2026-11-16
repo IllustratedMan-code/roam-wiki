@@ -19,3 +19,33 @@ bed files in the dataset.
 * Helpful links
 - [[https://github.com/WeirauchLab/RELI][RELI repo]]
 - [[https://hub.docker.com/r/weirauchlab/reli][Docker container]]
+
+
+** RELI 2.0
+
+- Query (sequences) against target
+- What percentage of query overlaps with target
+- Random background (randomized chip peaks) gives probability that
+  query overlap is signficant
+  - Null model represents the open regions of the genome that are of
+    interest, therefore only those regions are considered as valid
+    permutations
+  - SNPs are not necessarily causitive because of Linkage disequilibrium
+
+
+
+* Making a null model with RELI 1.0
+
+- [[https://tfwiki.cchmc.org/wiki/RELI#How_to_create_a_custom_null_model.3F][instructions]]
+
+
+
+#+begin_src shell
+cd $APPDATA/BedSig/NullModels/hg19/code/null_model_from_bed_file_multiSpecies/
+#+end_src
+175555468
+113314613
+87031082
+44365613
+138175956
+73326080

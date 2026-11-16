@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       6a96da23-7818-43d9-b6e7-66dfb84c66b4
+:END:
+#+title: vibe-coding
+
+Vibe coding is coding entirely through the use of AI agents,
+e.g. claude code.
+
+* Pitfalls
+Vibe coding has the obvious problem of losing the direct connection
+between programmer and program. It emulates the relationship between a
+supervisor and a junior programmer. Because of this, the LLM can lie,
+or obfuscate what code is being written, unintentionally or not.
+
+
+** Code complexity
+LLMs know more than you, but their critical thinking skills are
+low. Meaning, they may implement features in unintuitive ways, but may
+use methods that are unfamiliar or "shiny" that look impressive. It is
+the programmers job to insist upon simplicity. Fancy optimizations are
+important, but not at the cost of readability and more importantly
+maintainability. It is important to limit the scope of any singular
+change by the agent.
+
+
+
+* Use-cases
+- Adding a simple feature to a large codebase

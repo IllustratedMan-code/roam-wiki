@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       3496d082-0e93-4a60-83b0-38c4435c2323
+:END:
+#+title: ai-ecg
+
+
+AI is currently in practice for detection of specific diseases or a
+small subset of diseases using supervised machine learning.
+
+Can label specific classifiers be used to describe overall
+cardiovascular risk?
+
+Low discriminatory accuracy shows that classifiers for cardiovascular
+disease are better used as general biomarkers

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       8d3549d9-bd5a-40ad-92ae-2cbfd99d7a16
+:END:
+#+title: mtg-proxies
+
+
+Things needed for printing mtg proxies:
+
+- 350 GSM black/blue core cardstock
+- laser printer with a straight path for the paper, i.e. a rear feed
+  tray
+- UV inkjet printer (commercial) 
