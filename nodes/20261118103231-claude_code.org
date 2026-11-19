@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       9e3aee75-9415-4aab-a0fb-b4efd014c4fa
+:END:
+#+title: claude code
+
+Claude code is a platform for running AI models with access to local
+programs. I.e. the model is running on Claude's servers, but the model
+is able to run code using local setup
+
+* Link
+https://claude.com/product/claude-code
+

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       dea744a1-0d50-45b1-bdde-b96705fda068
+:END:
+#+title: Magic the Gathering
+
+A collectible card game
+
+
+* Printing cards
+
+- [[id:8d3549d9-bd5a-40ad-92ae-2cbfd99d7a16][mtg-proxies]] 

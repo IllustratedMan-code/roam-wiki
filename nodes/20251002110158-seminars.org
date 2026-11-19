@@ -5,6 +5,9 @@
 
 A log of seminars I have been to.
 
+- [[id:26bfcdc0-62b2-43bc-80f9-b20d8509cdd1][mining-sensor-data]] 
+- [[id:8bbf9262-09d8-441c-a9c6-5cbeace37049][Jonathan-prichard-seminar]]
+-[[id:8c47d440-6575-4390-8109-ca2e5a7ff6ab][Yuqiu Yang Seminar]] 
 
 
 

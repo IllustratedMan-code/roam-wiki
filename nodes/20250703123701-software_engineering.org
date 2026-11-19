@@ -7,5 +7,8 @@
 Software engineering is as much about the build infrastructure as it is about the code.
 
 * Infrastructure Tools
-- Git
+- [[id:0ba0e451-8b03-48ea-9b53-59e83afdeb8c][Git]]
 
+
+* Design philosophies
+- [[id:6a96da23-7818-43d9-b6e7-66dfb84c66b4][vibe-coding]] 

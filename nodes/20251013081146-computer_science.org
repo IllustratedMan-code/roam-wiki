@@ -5,3 +5,9 @@
 
 Computer science is the study of computers and computer algorithms. It is intrinsically
 related to[[id:61804c51-b1bf-4a77-8d07-afe2720618bc][ Software Engineering]]. 
+
+
+
+* Modeling
+
+- [[id:84da1318-6369-4fad-b9b3-6ea0227c1deb][Differential Equations]] 

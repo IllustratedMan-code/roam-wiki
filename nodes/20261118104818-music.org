@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b00fd6e5-50be-4b43-a4d9-b9978217294e
+:END:
+#+title: Music
+
+
+* Study Music
+
+- [[https://www.youtube.com/@Otterspace-Lofi][Otterspace Lofi]]

@@ -10,3 +10,12 @@ transcribed.
 ** Important Transcription factors
 
 - [[id:5fb483b8-9579-40df-acff-925f82b65085][CTCF]]
+
+
+** weird transcription factors to watch out for
+
+- THAP
+#+begin_quote
+Maybe not a transcription factor
+  -- Diego
+#+end_quote

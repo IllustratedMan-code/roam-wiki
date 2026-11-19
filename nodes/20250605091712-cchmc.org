@@ -5,3 +5,7 @@
 #+title: CCHMC
 
 Cincinnati Childrens Medcial Hospital (CCHMC) is a research hospital in cincinnati.
+
+* Institution resources
+
+- [[id:1d341553-1a17-4d32-89b6-98c1fe3b7448][DTB]] 

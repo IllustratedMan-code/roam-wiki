@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1d341553-1a17-4d32-89b6-98c1fe3b7448
+:END:
+#+title: DTB
+
+
+CCHMC resource bioinformatics: Discover together biobank

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       2da4d9fd-2ced-469a-a678-d80988e132a7
+:END:
+#+title: Making talks
+
+Tools that can be used to make talks/videos
+
+- [[id:be9a735b-0cb6-4976-9d33-a81321a1d18c][video-editing]]

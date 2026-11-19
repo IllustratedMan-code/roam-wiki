@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       c3fd3e58-0d00-491b-b234-6562c2afb81c
+:END:
+#+title: Bioinformatics PhD
+
+
+* Identification
+- [[id:93c6fc11-d0d8-4fa8-a08d-b8c9b440038f][ORCID]] 
+
+* Topics
+- [[id:22068ba7-c875-4e4d-a111-dada1643c575][PU.1]] 
+- [[id:77ce9624-808f-4a70-92f2-634c8a446bf4][HPV review]] 
+- HPV vtr
+
+
+* Seminars
+- [[id:441dbd50-0f5f-4a16-b01f-74b9791584a9][seminars]] 
+
+* Alumni
+- [[id:d301f976-d989-40c6-8399-42bd62032a39][adeboye adejare]] 
+
+* Internships
+- [[id:3b3f5e28-220e-4292-935e-f0bc2bbf980c][nvidia internship]] 

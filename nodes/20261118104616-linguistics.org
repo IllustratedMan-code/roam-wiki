@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a6bd79b7-c5c8-44d2-9f35-65dd2256d9fc
+:END:
+#+title: linguistics
+
+- [[id:46af0650-9087-4050-907f-89b25fc86201][swadesh list]] 

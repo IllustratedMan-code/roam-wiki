@@ -26,3 +26,10 @@ change by the agent.
 
 * Use-cases
 - Adding a simple feature to a large codebase
+
+
+* Platforms
+- [[id:9e3aee75-9415-4aab-a0fb-b4efd014c4fa][claude code]]
+
+* Science platforms
+- [[id:42b8b8ec-6bc7-4262-ac4a-fea28e163582][claude-science]] 

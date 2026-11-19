@@ -14,4 +14,6 @@ Expensive [[id:4550b3f0-11b9-486d-94ee-09fbfea877d9][biological assays]] generat
 
 - [[id:6511b7b1-c902-41be-9909-37899671df42][Gene Regulation]]
 - [[id:54be60ca-a4d6-4afd-86cc-e2306d98d084][Pipelines]]
+- [[id:c3fd3e58-0d00-491b-b234-6562c2afb81c][Bioinformatics PhD]]
 
+  

@@ -10,3 +10,6 @@ Git is version control software.
 
 
 - [[https://github.com/BMI-UC/Git-or-how-I-learned-to-stop-worrying-and-love-version-control][How I learned to stop worrying.]]
+
+* SQL with git!
+-[[id:7dd2e95a-b1b4-45cd-9bf1-1e72635a4555][Dolt]] 
